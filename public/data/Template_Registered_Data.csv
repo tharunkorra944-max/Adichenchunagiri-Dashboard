@@ -1,0 +1,1279 @@
+student_id,first_name,last_name,registered_grade,district,school_name
+8092640001,AALIYA MEHROSH M,Doe,10,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640002,ALMAN SHARIF N,,10,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640004,ANANYA S,,10,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640005,B MOHAMMED ABU SUFIAN,,10,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640006,BHARGAV PATGAR,,10,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640007,BHAVANTH C M,,10,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640008,BRUNDAN J,,10,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640009,CHAITHRA R,,10,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640010,DIKSHIT M N,,10,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640011,DRUTHI S,,10,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640012,GANAVI B N,,10,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640013,GEETHASHREE H V,,10,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640014,GREESHMA J,,10,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640015,HANSIKA VAGISH ANNIGERI,,10,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640016,JAHNAVI H S,,10,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640017,JANAVI S,,10,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640018,JEEVITHA S R,,10,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640019,KAVANA S B,,10,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640020,KRUTHI V N,,10,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640021,LOHITH S,,10,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640022,MANASA B,,10,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640023,MOHAMMED ABBUZAR SHIFAUULA,,10,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640025,MOULYA NIRANJAN,,10,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640026,NAVEEN TARUN M K,,10,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640027,NAZEER AHMED KHAN,,10,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640028,NIHAL D R,,10,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640029,NIMITHA NIMITHA,,10,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640030,NUTHAN K,,10,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640031,PREETHAM B A,,10,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640032,PREETHAM GOWDA  R,,10,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640033,PREETHAM S,,10,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640034,SHRAAVANTH S,,10,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640035,SHUBHASHREE S,,10,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640036,SPOORTHI S K,,10,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640037,SRINIVAS H G,,10,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640038,SRUSHTI S,,10,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640039,SUHANI S KHANUM,,10,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640040,SUJAN D,,10,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640041,SUMEDHA G NADIG,,10,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640042,SURAJ S R,,10,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640043,TANUSHREE V N,,10,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640044,TEJASWINI M,,10,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640045,UMEHANI UMEHANI,,10,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640046,UNNATHI A R,,10,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640047,YASHVANTH S G,,10,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640048,Aditya S,,10,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640049,Amrutha Lalage,,10,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640050,Amrutheshwar M P,,10,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640051,Anvesha N,,10,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640052,Apoorva S,,10,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640053,Aradya K S,,10,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640054,Arjun S,,10,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640055,Arshan Mujeebulla,,10,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640056,Bhoomika G B,,10,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640057,Bindushree Pawar K,,10,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640058,Chandana K C,,10,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640059,Charan P R,,10,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640060,Charvi S U,,10,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640062,Dhanush R,,10,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640063,Dhruva R G,,10,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640064,Diya M Talur,,10,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640065,Fazil Aiman,,10,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640066,Fiza Farheen,,10,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640067,Gagana S,,10,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640069,Komala Komala,,10,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640070,Lakshmi P,,10,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640071,Madhura Madhura,,10,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640072,Manvitha D Gowda,,10,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640073,Manya I,,10,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640074,Mayank Shailendra,,10,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640075,Mohammed Labeeb T P,,10,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640076,Md Sarimulla Md Sarimulla,,10,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640077,Meghana S D,,10,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640079,Nayana M,,10,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640080,Neha R,,10,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640081,Nikhil N,,10,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640082,Nisarga S P,,10,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640083,Prajwal B,,10,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640084,Rajath S R,,10,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640085,Sandyaraani Sandyaraani,,10,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640086,Shashank K N,,10,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640087,Shivakumar B,,10,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640088,Shloka P,,10,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640089,Sonia R,,10,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640090,Spandana C,,10,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640091,Sujan G S,,10,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640092,Tushara A,,10,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640093,Varshitha S D,,10,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640094,Abdul Faizan,,10,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640095,Adithya S,,10,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640097,Aryajith S,,10,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640098,Ashwin Acharya N,,10,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640099,Bhanuprakash K U,,10,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640100,Bindushree D,,10,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640101,Chiradratha K,,10,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640102,Chirag M L,,10,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640103,Chiranth R,,10,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640104,Deepthi J,,10,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640105,Dhanush C,,10,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640106,Dhanush N,,10,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640107,Ganeshri R,,10,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640108,Gowthami G R,,10,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640109,Gowthami A Jain,,10,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640110,Harsha D R,,10,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640111,Jahnavi M,,10,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640112,Jeevitha G S,,10,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640113,Jyanavi Venkateshappa Booscr,,10,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640114,Mansi R Shet,,10,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640116,Nehal D S,,10,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640117,Nithin Kumar S,,10,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640118,Nuthana S Naik,,10,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640119,Prathik S S,,10,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640120,Rachana Satish Badapla,,10,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640121,Rakesh H,,10,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640122,Rishika M V,,10,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640123,Sakshi R Shetty,,10,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640124,Samarth R K,,10,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640125,Samrudh Satish Kudalkar,,10,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640126,Sara Sheikh Mushtaq,,10,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640127,Shamanth K P,,10,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640128,Shreeraksha C S,,10,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640129,Shreyas Kumar K S,,10,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640130,Shuchaye P Gowda,,10,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640131,Siddarth C,,10,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640132,Sinchana V,,10,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640133,Spoorthi D S,,10,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640134,Syed Hassan Ahamed,,10,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640135,Syeda Khalandar Bee Bi,,10,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640136,Tanmayee U,,10,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640137,Varsha J R,,10,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640138,Yashaswini Gowda M,,10,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640139,ABHISHEK N S,,10,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640140,ANIKETH BALAJI S N,,10,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640141,BOOMIKA M,,10,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640142,DHANUSH J SHETTY,,10,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640143,DILIP KUMAR J,,10,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640144,ESHWAR G GEHLOTH,,10,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640145,HARSHIT S NAVALE,,10,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640146,JANAHVI S M,,10,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640147,KARTHIK P,,10,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640148,MITHUN T,,10,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640149,NAMAN G HEGDE,,10,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640150,NEERAJ M GOWDA,,10,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640152,NIVEDITHA S,,10,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640153,PRAJWAL GOWDA P,,10,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640154,RAKSHA B,,10,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640155,RISHIKA K,,10,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640156,RUCHITHA V,,10,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640157,SAANVI T R,,10,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640158,SAANVI V BHARADWAJ,,10,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640159,SAMANVI BHAT,,10,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640160,SAMRUDH H,,10,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640161,SHARAVAN SINGH,,10,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640163,SRIJEETH M R,,10,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640164,TISHA V,,10,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640165,VARUN D S,,10,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640166,VEEKSHITHA P,,10,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640167,VISHVAJITH NENE,,10,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640168,YASHASWINI K,,10,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640169,YASHVITH S KUMAR,,10,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640170,Abheerva K C,,7,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640171,Achinthya S Shastry,,7,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640172,Advik K S,,7,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640173,Agastya Nataraj,,7,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640175,Amrutha Aradhya R,,7,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640176,Ananya H M,,7,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640177,Anjan S Ram,,7,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640178,Ayesha Imran Nazeer,,7,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640179,Bharath A,,7,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640180,Bhuvan B S,,7,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640181,Charanya T S,,7,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640182,Chirag Eshwar,,7,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640183,chitanjivi chitanjivi,,7,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640184,Deeksha D,,7,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640185,Devaraj A,,7,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640186,Dilip S Poojari,,7,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640187,Ganavi S,,7,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640188,Govrav N,,7,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640189,H D Thanu Patil,,7,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640190,Harshitha H,,7,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640191,Inchana B S,,7,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640192,Inchara B S,,7,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640193,Jahnavi K,,7,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640194,Jayashree M L,,7,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640195,Kanishk S Shetty,,7,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640196,Karthik K A,,7,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640197,Madhushree S,,7,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640198,Manoj M Gowda,,7,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640199,Mohammed Muzzamil,,7,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640200,Pragathi R,,7,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640201,Pragna N,,7,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640202,Praneel Gowda,,7,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640203,Pratham D R,,7,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640204,Prathamesh Nayak S,,7,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640205,Preetham S,,7,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640206,Pruthvi Raj K,,7,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640207,Pruthvi Raj R V,,7,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640208,Puneeth M,,7,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640209,Raghavendra Bhushana,,7,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640210,Roshini A,,7,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640211,Sadhana S,,7,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640212,Samarth M,,7,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640213,Shahzad Ulla Khan,,7,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640215,Vaishnavi G,,7,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640216,Vaishnavi M,,7,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640217,Vishal S L Naik,,7,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640218,Yogeshwar B P,,7,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640219,Anushree Rajappa Phalake,,7,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640220,Abdul Hannan Sait,,7,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640221,Abitha D,,7,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640223,Adhithi Singh D,,7,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640224,Ankush A,,7,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640225,Aryan S H,,7,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640226,Sannidhi B,,7,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640227,Bharath N,,7,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640228,Bhavish Raj N,,7,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640229,Chandana Chandana,,7,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640230,Chirag S,,7,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640231,Chiranth Gowda J,,7,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640232,Disha S G,,7,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640233,Gnaneshwari S Yadav,,7,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640234,Halachandra Yadavannavar,,7,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640235,Hithesh Chowdhary,,7,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640236,Hruday R R,,7,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640237,Jhnesh Kumar Pawar K,,7,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640238,Jashwanth R,,7,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640239,Jeevika R,,7,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640240,Jeevitha S G,,7,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640241,Karunya K,,7,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640242,Keerthi N,,7,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640243,Khushi B A,,7,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640244,Kishore B,,7,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640246,Mohammed Sherjeel,,7,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640247,Nimra Ambar,,7,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640248,Nudi U,,7,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640250,Powrnami B S,,7,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640251,Pranav M,,7,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640252,Preetham M,,7,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640253,Puneethkumar M V,,7,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640255,Rakshitha N,,7,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640256,Ruchitha M,,7,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640257,Safiya Begam,,7,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640258,Samarth M S,,7,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640259,Sanmith Sanmith,,7,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640260,Shanvitha Y,,7,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640261,Shashank M,,7,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640262,Shashwath Gowda K L,,7,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640263,Shravya G H,,7,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640264,Soujanya B,,7,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640265,Thanvika S,,7,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640266,Veekshitha M Shetty,,7,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640267,Yaduraj Naika,,7,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640268,Amruthalakshmi S,,7,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640269,Aneesh G J,,7,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640270,Aniketh S Mayar,,7,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640271,Ashith G A,,7,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640272,Ashith K A Gowda,,7,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640273,Azraa Tanzeel,,7,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640274,Chirag R,,7,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640275,Chiranth Patil,,7,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640276,Chiranth Raj P,,7,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640277,Deepak R,,7,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640278,Disha Ravikumar,,7,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640279,Goutam C,,7,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640280,Hemanth Gowda M,,7,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640281,Janya A,,7,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640282,Kruthika S,,7,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640283,Kruthika V,,7,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640284,Kushi G Bharadwaj,,7,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640285,Kushi R,,7,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640286,Lahari G M,,7,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640287,Lakshitha G Gehloth,,7,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640288,Lekhana N,,7,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640289,Manaal Fathima,,7,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640290,Marzuq Ahmed Khan,,7,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640291,Milana H P,,7,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640292,Mithun Kumar H R,,7,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640293,Mohith A,,7,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640294,Nakul Raj K,,7,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640295,Nayana M G,,7,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640296,Prashwith D Devadiga,,7,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640297,Priya R,,7,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640298,Pruthvi S,,7,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640299,Rohan S H,,7,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640300,Sangamesh S Kottalagi,,7,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640301,Sannidhi R,,7,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640302,Sanvi H,,7,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640303,Shayan Ahmed,,7,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640304,Sinchana R,,7,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640305,Skandan U N,,7,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640306,Sri Ruthvik S R,,7,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640307,Srusthi M S,,7,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640308,Syeda Haifa Naba,,7,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640310,Vaibhav B,,7,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640311,Vibha H Gujjar,,7,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640312,Vihaan T J,,7,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640313,Vishnu P S,,7,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640314,Vishruth R,,7,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640315,Yashas V,,7,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640316,Zaeba Maryam,,7,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640317,ABBAY S,,8,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640318,AKHILESH R NAIK,,8,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640319,ALIYA MARLIN,,8,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640320,B KEERTHISHREE,,8,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640321,BHUVAN A B,,8,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640323,CHANDAN R,,8,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640324,CHANDANA M,,8,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640325,CHARITH S A,,8,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640326,CHIRANTH M,,8,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640327,DHANUSH R,,8,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640328,GOKUL H R,,8,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640329,GOWRI M,,8,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640330,HAJIRA HARMAIN,,8,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640331,KEERTHANA S,,8,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640332,KISHAN GOWDA R,,8,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640333,KRUTHARTH M G,,8,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640334,LAHARI V,,8,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640336,MOHAMMED AYAAZ,,8,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640338,MYTHRI M,,8,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640339,NIDHI A PAWAR,,8,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640340,NISARGA G,,8,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640341,NISHCHAY M U,,8,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640342,PARINITHA S,,8,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640343,PRATHAM H G,,8,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640344,PREM SAGAR N J,,8,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640345,RACHITH H C,,8,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640348,SAMEEKSHA K V,,8,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640350,SHOAIB KHAN,,8,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640351,SUMANA M,,8,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640353,TEJASWINI M,,8,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640354,VAISHNAVI U M,,8,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640355,YAGANTI GEETHAIKA,,8,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640356,YASHAS G C,,8,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640357,ABHIGHNA S J,,8,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640358,ADAN RISHON JATHANNA,,8,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640360,ASHWIN N,,8,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640362,CHANDAN C,,8,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640363,CHIRAG U K,,8,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640364,CHIRANJEEVI V S,,8,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640365,DIGANTH D C,,8,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640367,GURUPRASAD A,,8,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640368,HEMANTH KUMAR J,,8,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640369,JAGRUTHI P,,8,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640370,KUMAR M,,8,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640371,MITHUN GOWDA,,8,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640372,MOHAMMED TAHER,,8,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640373,MRUNALINI ,,8,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640374,NAMRATHA S T,,8,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640375,NAVNI R SHET,,8,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640376,NIKHIL M,,8,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640377,NISARGA S K,,8,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640378,PRANITHA M,,8,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640379,PRATHIK D SHET,,8,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640381,RAKSHA RAKSHA,,8,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640382,RITHUSHREE S,,8,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640383,S G SURYA TEJA,,8,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640384,SAMARTH SAMARTH,,8,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640385,SAMPREETH V BHARADWAJ,,8,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640386,SHARVARI M J,,8,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640387,SHREYAS M S,,8,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640388,SONALI R,,8,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640389,SUDEEKSHA M S,,8,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640390,SUDEEKSHA S,,8,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640391,SUNAY G S,,8,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640392,SYED SYED,,8,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640393,SYED SAARISH,,8,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640394,TEJAS U,,8,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640395,THANMAY P,,8,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640396,VIHAN SHRESTY,,8,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640397,YASHIKA S,,8,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640398,ADITHYA P,,8,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640399,AFREEN FATHIMA,,8,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640400,AKSHATHA V SHET,,8,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640402,ANSHITHA R,,8,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640403,BALAJI H G,,8,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640405,CHAITHANYA S,,8,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640406,CHETHAN DASARA,,8,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640409,DEEKSHITH R,,8,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640410,DHANUSH M GOWDA,,8,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640411,DHANUSH S MAYAR,,8,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640413,JITHENDRA SINGH,,8,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640414,KISHAN Y KONEKAAR,,8,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640415,KHUSHI N,,8,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640416,MUHAMMED M ASJAD,,8,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640418,POORVI H P,,8,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640419,PRADHYUMNA S,,8,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640421,RAGHAVA D V,,8,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640422,RAYAN SHARIFF SHARIFF,,8,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640423,SADHVI JAVAGAL JAVAGAL,,8,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640424,SAKSHI P,,8,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640425,SANJAN KUMAR N,,8,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640426,SATHWIK Y,,8,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640427,SHREEJA G S,,8,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640429,SRIMANJU A,,8,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640430,SRUJAN S,,8,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640431,TANMAI P,,8,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640432,VAISHNAVI R,,8,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640433,VARSHITH RAJ P K,,8,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640434,YASHARAJ JAGADEESH P,,8,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640435,YASHASWINI S,,8,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640436,ZUHA FATHIMA,,8,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640437,ARADHYA H S,,8,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640438,BHAIRAVI S,,8,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640439,BHUVAN K P,,8,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640440,CHANDHAN D,,8,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640442,DEVIKA N K,,8,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640443,DHANUSH M,,8,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640444,DHEEMANTH U B,,8,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640445,DHEERAJ S CHAVADE,,8,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640449,JANAVI V,,8,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640450,KHUSHI N,,8,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640451,KRISHNA S PAWAR,,8,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640452,KUSHAL Y NAIK,,8,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640453,MANVITHA M,,8,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640454,MOHAMMED MUZAKKIR,,8,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640455,NANDAN P,,8,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640456,NAVAMI S D,,8,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640457,NIKHIL C NIGADE,,8,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640458,NISARGA M,,8,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640459,NUTHAN G,,8,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640460,NUTHAN P,,8,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640461,PRAJNA H S,,8,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640462,PRATHAM P,,8,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640463,RISHIKA K,,8,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640464,ROHAN N,,8,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640465,SAMRUDH R SAKRE,,8,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640466,SANVI M P,,8,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640467,SATHWIK N,,8,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640469,SHIFA I,,8,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640470,SOMARADDI S MADALLI,,8,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640471,SRUJAN J,,8,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640472,SUJAN S SHETTY,,8,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640473,TANMAYEE R,,8,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640474,THARUN C GOWDA,,8,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640476,VIGNESH S,,8,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640477,VISHRUTH K L,,8,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640478,AKASH P SHET,,9,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640480,AFIFA KOUNAIN,,9,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640481,ANKITH J,,9,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640482,ANVITH J,,9,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640483,ASEEMA TAJ,,9,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640484,B G VACHANA GANIGA,,9,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640485,CHAITHANYA M V,,9,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640486,CHANDANA M,,9,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640487,CHIRANTH S,,9,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640488,FURQAN BASHA,,9,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640489,G VARSHINI MAYYA,,9,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640490,GOUTAM S,,9,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640491,GOUTHAMI KH,,9,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640492,HALESH D,,9,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640493,HAMSA S P,,9,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640494,JAHNAVI GS,,9,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640495,JAHNAVI R S,,9,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640496,K S SURYA PRADHAN,,9,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640497,KARUNYA K S,,9,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640498,KEERTHANA S,,9,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640499,KISHAN T P,,9,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640500,MANOJ KUMAR,,9,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640501,NIMPANA S R,,9,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640502,PAVAN RAJ M,,9,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640504,REENA R,,9,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640505,RISHITH S,,9,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640506,S SHRESHTA,,9,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640507,SAKSHI H M,,9,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640508,SHAIK AMEEN SHAZAIN,,9,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640509,S SHRAVYA,,9,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640510,SIDDHARTH S,,9,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640511,SKANDA HM,,9,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640512,SNEHA D,,9,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640513,SRUJAN R BARANGI,,9,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640515,SUCHITH A SHET,,9,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640517,SWAROOP H V,,9,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640518,SYED NIHAL,,9,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640519,THEJAS BANGER,,9,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640520,THRISHA THRISHA,,9,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640521,VAISHNAVI M,,9,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640524,VIDYASHREE VIDYASHREE,,9,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640525,VIVEK R DEVADIGA,,9,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640526,YASHASWINI S,,9,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640527,AARON N B,,9,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640528,AMITH H S,,9,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640529,ANSH A,,9,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640530,BHARATH S,,9,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640531,BHARATH U S,,9,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640532,CF MOHAMMED SARIM PASHA,,9,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640533,CHINMAY A N,,9,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640534,DEEKSHA KALE,,9,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640535,DHANYASHREE D V,,9,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640536,ESHWARI R,,9,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640537,GOUTHAMI V,,9,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640538,JAYANTH H S,,9,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640539,KARUNYA S S,,9,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640540,KHASIM RAZA,,9,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640541,KRUTHIK R,,9,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640542,LAHARI T,,9,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640543,MANISH L,,9,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640544,MOHAMMED FURQAN,,9,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640545,MOHAMMED SHAHID,,9,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640546,MOHAMMAD SUFRAN KHAN,,9,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640547,MEGHANA A R,,9,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640548,NAGASHREE R,,9,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640549,NEHA K,,9,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640551,PRERANA E,,9,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640552,ROHAN N,,9,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640553,ROSHNI A,,9,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640554,SAAD AHMED SHARIFF,,9,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640555,SACHIN K R,,9,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640556,SAGARI P,,9,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640557,S A SAHIL KHAN,,9,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640558,SAI ADITYA RAO GM,,9,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640559,SAMANVI A,,9,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640560,SATHVIKA N,,9,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640561,SONAL DISILVA,,9,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640562,SRUJAN S,,9,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640563,SUMANTH H,,9,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640565,THANUSHREE B G,,9,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640566,TANUSHREE Y,,9,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640567,THANVITHA HM,,9,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640568,UBAIS FATHIMA,,9,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640569,VAMSI T,,9,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640571,VIDYA N,,9,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640572,VINUTHA S SURAGIHALLI,,9,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640573,YASH ANAND,,9,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640574,YUVARAJ H,,9,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640575,AKSHARA S,,9,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640576,ARSHAAN AHAMED,,9,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640577,BHAVISH N V,,9,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640578,BHEESHMA M,,9,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640579,CHARITHYA N S,,9,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640580,DAKSH DS,,9,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640581,DAKSHA S K,,9,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640582,DISHA V,,9,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640583,DHRUVA N,,9,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640584,HARSHINI MB,,9,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640585,HARSHITHA M,,9,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640586,HEMANTH M S,,9,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640587,JAVERIYA FATHIMA,,9,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640588,JEEVAN M R,,9,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640589,KARUNYA J,,9,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640590,LIKHITHA G,,9,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640591,M KESHAV GOWDA,,9,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640592,MOHAMMED ARHAM KHAN,,9,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640593,MD JAWAD UR RAHMAN,,9,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640594,MUZAKIR KHAN,,9,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640595,N AFSHA NAAZ,,9,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640596,NAKUL C,,9,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640597,NARAYAN CHAUDRY,,9,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640598,NIGAR TAJ,,9,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640599,NISHMITHA D M,,9,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640600,PARTHA SNEHITH R,,9,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640601,PRAGATHI G,,9,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640602,PRATHIKSHA S R,,9,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640605,RISHA M R,,9,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640606,RITHIKA HK,,9,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640608,SAHANA U,,9,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640609,SAMRUDH SC,,9,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640610,SANJAY V K,,9,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640611,SANKALPA BILLADI,,9,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640612,SHIRISH G HIREMATH,,9,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640613,SHREESHA SV,,9,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640614,SHREYAS DV,,9,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640615,SHREYAS G,,9,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640616,SONIYA B,,9,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640617,SUBHASH C,,9,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640618,SYED MEHRUDDIN,,9,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640619,VIBHA D G,,9,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640620,SYEDA ILAFIN,,9,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640621,VIBHAV S GOWDA,,9,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640622,VISHAKA A,,9,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640623,AKSHIT S,,9,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640624,ASRAH FATHIMA,,9,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640625,CHINTHAN G,,9,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640626,HARSHITH MR,,9,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640627,HASINI HASINI,,9,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640628,JAYALAKSHMI N,,9,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640629,JEEVAN S,,9,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640630,KUBERA KUBERA,,9,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640632,MOHITH KIRAN N,,9,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640633,NAYANA MY,,9,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640634,NEERAJ R,,9,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640635,PAWAN A RAIKAR,,9,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640636,PRAGNA N,,9,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640637,RISHABH R PATEL,,9,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640638,ROSHANA Y,,9,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640639,SAANIDHYA R,,9,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640640,SACHIN Y,,9,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640641,SAICHARAN R NAIK,,9,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640642,SATHVIK B,,9,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640643,SATHVIK GL,,9,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640644,SHRAVANTH V,,9,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640645,SOUPARNIKA S J,,9,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640646,SRINIDHI SHANUBHAG H,,9,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640647,SRUSTI R,,9,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640649,SUPRIYA A,,9,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640650,TISHA I M,,9,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640651,TRISHA REDDY MT,,9,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640652,ULLAS TELKAR H,,9,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640653,VAISHNAVI J,,9,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640654,VISMITHA S,,9,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640655,POORVIKA RS,,9,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640656,Aadhya R,,4,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640657,Apoorva Vishwakarma,,4,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640658,Daksha R,,4,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640659,Dhruthi G,,4,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640660,Dimpul Siri,,4,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640661,Gokul H S,,4,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640662,Hanvika P,,4,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640663,Harshith S P,,4,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640664,Karthik J,,4,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640665,Kumuda Kumuda,,4,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640666,Maheera Maheera,,4,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640667,Mehvish Fathima,,4,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640668,Mohammad Zain Ahmed,,4,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640669,Mudassir Khan,,4,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640670,Muhammad Arfath,,4,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640671,Nishal S,,4,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640672,Nishanth M Gowda,,4,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640673,Noorain Taj,,4,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640674,Phalgun M Mathad,,4,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640675,Priyanka K R,,4,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640676,Priyanka S D,,4,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640677,Rithuparna G V,,4,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640678,Ruthvik S M,,4,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640679,Sahithya Gowda,,4,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640680,Sampreeth S Achar,,4,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640681,Samrudh A,,4,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640682,Sanvi A Bellam,,4,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640683,Sanvitha M,,4,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640684,Sathwik N,,4,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640685,Shamanth A,,4,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640686,Shashiranjan A N,,4,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640687,Shivani S N,,4,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640688,Shreeraksha D V,,4,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640689,Shrushravya B J,,4,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640690,Sukruth R,,4,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640691,Syed Daniyal,,4,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640692,Tanishka M Uttarkar,,4,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640693,Thanvik S Gowda,,4,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640694,Vanika Janya C M,,4,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640695,Venugopal G S,,4,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640696,Virat A,,4,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640697,Yukthi S,,4,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640698,A R Abinav Raymond,,4,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640699,Aadvika P,,4,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640700,Abdul Mannan,,4,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640701,Adish S R,,4,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640702,Aman Sahraf,,4,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640703,Azan Mohammed Khan,,4,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640704,Bhavish U K,,4,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640705,C Rakshith,,4,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640706,Chandushree M L,,4,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640707,Chinmayi R,,4,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640708,Dhanya M P,,4,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640709,Divyadarshini P,,4,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640710,Eshwari H K,,4,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640711,Gowrav B A,,4,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640712,M P Sanidhya,,4,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640713,M R Pravarthin,,4,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640714,Manasvi V,,4,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640715,Manvita Manvita,,4,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640716,Mohammed Sulaim Ariff,,4,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640717,Namratha M,,4,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640718,Nihal R Sakre,,4,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640719,Prathiksha M N,,4,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640720,Purab R Gowda,,4,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640721,Ritik Patel,,4,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640722,Ronith K Gowda,,4,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640723,Ruchika R Patel,,4,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640724,S P Brinda,,4,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640725,S P Sreelakshmi,,4,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640726,S S Udayraag Shetty,,4,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640727,Saakshi S V,,4,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640728,Samarth H S,,4,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640729,Sinchana N,,4,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640730,Sohan N,,4,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640731,Srinidhi S Shivaram,,4,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640732,Srisha S Revankar,,4,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640733,Surya G H,,4,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640734,Syeda Swaiba,,4,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640735,T C Jahnavi,,4,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640736,Thrigun Gowda S,,4,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640737,Yashas Kumar N C,,4,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640738,Yashvith A P,,4,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640739,Yesh H N,,4,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640740,Aadhya M,,4,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640741,Adhvith M P,,4,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640742,Adith D,,4,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640743,Adviti K L,,4,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640744,Anvi R,,4,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640745,Aryan P H,,4,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640746,Bharath B P,,4,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640747,Bhuvan S,,4,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640748,Brunda M,,4,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640749,Chandana Chandana,,4,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640750,Dharmik V,,4,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640751,Dhruva R,,4,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640752,Dhruvam R Sukavi,,4,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640753,Himagiri C,,4,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640754,Jaanavi S,,4,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640755,K S Pruthvi,,4,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640756,Keshavraddi Madalli,,4,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640757,Kethan K,,4,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640758,Komala S Gowda,,4,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640759,Lanya R,,4,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640760,Mananth Venkatesh M,,4,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640761,Meenakshi P,,4,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640762,Mohith A,,4,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640763,Monika S,,4,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640764,Naman N Balegar,,4,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640765,Poorvi A Ghaate,,4,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640766,Pragna Pragna,,4,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640767,Pranith M,,4,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640768,R Gagana,,4,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640769,S P Dhanvin,,4,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640770,Sachith L,,4,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640771,Sai Shamika,,4,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640772,Samruddhi M Kundar,,4,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640773,Sindhu M,,4,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640774,Sona G S,,4,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640775,Sreeshay Sreeshay,,4,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640776,Sri Chetana S R,,4,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640777,Syed Awais,,4,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640778,Syed Ilhan Ahemad,,4,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640779,Vikram Patel,,4,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640780,Vismaya M S,,4,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640781,Yashmitha M R,,4,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640782,Adith Gowda A R,,6,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640783,Adithi Arun Gowda,,6,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640784,Advika Advika,,6,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640785,Aishani Aishani,,6,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640786,Anushree Anushree,,6,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640787,Arjun U,,6,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640788,Bhakthi S,,6,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640789,Chinmay Kumar K S,,6,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640790,Chinmay M,,6,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640791,Deeksha H L,,6,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640792,Devaraj R Madivalar,,6,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640793,Harshith L,,6,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640794,Jeevan Gowda B,,6,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640795,Kavya Kavya,,6,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640796,Krithik Shailendra,,6,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640797,Lakshith S P,,6,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640798,Lohith Lohith,,6,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640799,M S Lasya,,6,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640800,Mohammed Abaan,,6,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640801,Mohammed Ariz Jaffar,,6,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640802,Nida Fathima,,6,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640803,Pavani R,,6,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640804,Poornashree B,,6,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640805,Poorvika R S,,6,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640806,Pranav Gowda,,6,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640807,Pritam S,,6,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640808,Rida Fathima,,6,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640809,Ritheesh R,,6,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640810,Sanika R,,6,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640811,Shamitha Kadam,,6,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640812,Shuddhi K Gowda,,6,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640813,Srujan K,,6,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640814,Sudhanvi S M,,6,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640815,Susanya R,,6,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640816,Syed Umar Faiz,,6,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640817,Vikas R,,6,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640818,Yashaswi S,,6,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640819,Yashaswini P,,6,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640820,Yashavanth C,,6,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640821,Adhya Adhya,,6,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640822,Akshay Akshay,,6,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640823,Anvitha G R,,6,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640824,Arjun Arjun,,6,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640825,B B Fathima,,6,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640826,Bhuvan S,,6,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640827,Chandroji Rao V Ghorpade,,6,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640828,Deekshith V Soged,,6,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640829,Ganavi U J,,6,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640830,Hanish V G,,6,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640831,Hrutika S K,,6,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640832,Janhavi Prasad R,,6,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640833,Keerthana R,,6,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640834,Krutharth Gowda,,6,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640835,P Kushal,,6,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640836,Kushi A,,6,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640837,Lasya Krishna,,6,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640838,Muhammad Naatiq,,6,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640839,Nanda Kishor,,6,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640840,Monish U,,6,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640841,Naman U P,,6,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640842,Niranjan S R,,6,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640843,Parvathi G S,,6,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640844,Prapthi K,,6,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640845,Rakshith M P,,6,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640846,Ranjitha D,,6,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640847,Rushika Rushika,,6,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640848,Saanvi H M,,6,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640849,Sachith M,,6,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640850,Samarth Gowda K S,,6,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640851,Sanvi M,,6,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640852,Sanvitha S Surgihalli,,6,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640853,Sharvi G M,,6,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640854,Tanvi P,,6,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640855,Viraat H P,,6,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640856,Yashaswini M,,6,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640857,Shrujay Kumar Raju K,,6,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640858,Ranjith B K,,6,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640859,Prathap Simha N,,6,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640860,Poorvika K R,,6,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640861,Abhishek C,,6,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640862,Adhoksha L,,6,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640863,Aisha S Khanum,,6,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640864,Anvith J A,,6,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640865,Arfa Arfa,,6,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640866,Astami S Gowda,,6,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640867,Avani A Gowda,,6,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640868,Bhandhavi N,,6,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640869,Bhuvan Gowda N,,6,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640870,Divya M,,6,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640871,Druthi A N,,6,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640872,Gokul P R,,6,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640873,Gurudharshith M,,6,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640874,Hamsashree U,,6,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640875,Jeevith Raj M,,6,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640876,Khushi R,,6,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640877,Khushi S,,6,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640878,Leal Abilene,,6,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640879,Manoj M,,6,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640880,Mayuri P,,6,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640881,Mohammed Haseeb,,6,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640882,Nagarjun V S,,6,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640883,Nayana P,,6,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640884,Nishanth K G,,6,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640885,Nuthan L,,6,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640886,Pranathi N,,6,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640887,Pranav S,,6,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640888,Prithiksha D,,6,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640889,Ram A R,,6,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640890,Sachitha D,,6,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640891,Samartha U,,6,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640892,Samhitha Billadi,,6,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640893,Sannidhi U,,6,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640894,Shreyas V M,,6,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640895,Thanushree N,,6,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640896,Ujwal G,,6,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640897,Ullas S L,,6,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640898,Varun S H,,6,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640899,Vinuta M Bharamagoudar,,6,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640900,Yashas V J,,6,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640901,A Preetham Prasad Jain,,3,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640902,Aadvika K Boosnoor,,3,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640903,Adithya D,,3,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640904,Afra Afra,,3,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640905,Aradhya Singh,,3,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640906,Audvik S P,,3,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640907,Belli Belli,,3,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640908,Charvi S,,3,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640909,D S Akshara,,3,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640910,Danvith G Harthi,,3,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640911,Dhruvita Dhruvita,,3,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640912,G Vidhatri Mayya,,3,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640913,Gahana S,,3,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640914,Ganavi R,,3,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640915,Gowthami B G,,3,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640916,H Pranamya,,3,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640917,H A Advithi Gowda,,3,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640918,Hamsika H R,,3,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640919,Kavyashree S,,3,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640920,Manvi Manvi,,3,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640921,Mehraan Ahamed,,3,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640922,Mohammed Hamdaan,,3,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640923,Mohammed Daniyal Khan,,3,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640924,Nehal S,,3,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640925,Nihal Shastry S R,,3,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640926,Pavani Pavani,,3,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640927,Prajwal Gowda M,,3,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640928,Praneeth M,,3,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640929,Pruthvi Malathesh Suryavanshi,,3,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640930,Sachal Prasad,,3,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640931,Samskruthi M S,,3,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640932,Shaujathulla Khan,,3,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640933,Shriraksha A H,,3,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640934,Siddanth S R,,3,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640935,Syed Samdaan,,3,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640936,Tehreem Fathima,,3,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640937,Tejaswi A S,,3,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640938,Vedanth P,,3,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640939,Yashas M,,3,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640940,Zoya Khanam,,3,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640941,Achinthya G Bharadwaj,,3,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640942,Adhya N,,3,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640943,Adithya Prathap Singh,,3,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640944,Ankith J A,,3,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640945,Anvith Vikas,,3,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640946,Arthavi M,,3,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640947,Deeksha Gowda,,3,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640948,Dhawan S,,3,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640949,Dheeraj Kumar A,,3,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640950,Guruprakash J,,3,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640951,Iram Iram,,3,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640952,Ishani H,,3,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640953,L Indushekar,,3,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640954,Lakshmi S,,3,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640955,Mohammed Kamil,,3,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640956,Mohammed Azaan Beary,,3,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640957,Mohammed Abbas Reza,,3,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640958,Mohammed Zaidan,,3,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640959,Neha A,,3,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640960,Nihal N,,3,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640961,Nithyashree V,,3,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640962,Piyush Patel,,3,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640963,Pooja S,,3,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640964,Pranamya S,,3,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640965,Prerana G,,3,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640966,Pruthvik S,,3,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640967,R Sanavi Prasad,,3,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640968,Raksh P,,3,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640969,Saadhvi Chirannjeevi,,3,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640970,Sadhana P,,3,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640971,Sanvi Kurdekar,,3,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640972,Sathvika R,,3,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640973,Shourya B,,3,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640974,Shreesha A,,3,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640975,Somashekar V,,3,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640976,Sukruthi J,,3,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640977,Tejas S H,,3,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640978,Vedanth K,,3,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640979,Yashas G H,,3,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640980,A Shankar,,3,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640981,Abhaya Chandra G Patel,,3,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640982,Adhya M S,,3,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640983,Agasthya N,,3,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640984,Agastya S Shastry,,3,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640985,Anjan V Shet,,3,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640986,Aradhana M R,,3,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640987,Aryan Manas Gowrav,,3,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640988,Buvan J Gowda,,3,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640989,Charan C,,3,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640990,Charvi H,,3,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640991,Dhanya M N,,3,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640992,Diya K L,,3,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640993,Gowtham U,,3,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640994,Gunvitha Y Nayak,,3,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640995,Hamsika S,,3,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640996,Janavi G,,3,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640997,Janya Shree S P,,3,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640998,Jeevika Jeevika,,3,Shivamogga,Sri Adichunchanagiri composite English High School
+8092640999,Koushik R,,3,Shivamogga,Sri Adichunchanagiri composite English High School
+8092641000,Mallesh H C,,3,Shivamogga,Sri Adichunchanagiri composite English High School
+8092641001,Md Khalid,,3,Shivamogga,Sri Adichunchanagiri composite English High School
+8092641002,Nishma Nishma,,3,Shivamogga,Sri Adichunchanagiri composite English High School
+8092641003,Parikshith J,,3,Shivamogga,Sri Adichunchanagiri composite English High School
+8092641004,Prajna K,,3,Shivamogga,Sri Adichunchanagiri composite English High School
+8092641005,Pranit K,,3,Shivamogga,Sri Adichunchanagiri composite English High School
+8092641006,Prarthana R,,3,Shivamogga,Sri Adichunchanagiri composite English High School
+8092641007,Prathika B P,,3,Shivamogga,Sri Adichunchanagiri composite English High School
+8092641008,Preethi P,,3,Shivamogga,Sri Adichunchanagiri composite English High School
+8092641009,Sai Khushi S,,3,Shivamogga,Sri Adichunchanagiri composite English High School
+8092641010,Shreyas N K,,3,Shivamogga,Sri Adichunchanagiri composite English High School
+8092641011,Shreyas V R,,3,Shivamogga,Sri Adichunchanagiri composite English High School
+8092641012,Spandana A R,,3,Shivamogga,Sri Adichunchanagiri composite English High School
+8092641013,Syeda Mehvish,,3,Shivamogga,Sri Adichunchanagiri composite English High School
+8092641014,Vedanth R,,3,Shivamogga,Sri Adichunchanagiri composite English High School
+8092641015,Vikhyath Vikhyath,,3,Shivamogga,Sri Adichunchanagiri composite English High School
+8092641016,Yathish H M,,3,Shivamogga,Sri Adichunchanagiri composite English High School
+8092641017,Aadvika K,,5,Shivamogga,Sri Adichunchanagiri composite English High School
+8092641018,Abhishek K,,5,Shivamogga,Sri Adichunchanagiri composite English High School
+8092641019,Aradhitha N,,5,Shivamogga,Sri Adichunchanagiri composite English High School
+8092641020,Aradhya N,,5,Shivamogga,Sri Adichunchanagiri composite English High School
+8092641021,Bhavan A R,,5,Shivamogga,Sri Adichunchanagiri composite English High School
+8092641022,Bi Bi Basriya,,5,Shivamogga,Sri Adichunchanagiri composite English High School
+8092641023,D Sri Sai Dhanush,,5,Shivamogga,Sri Adichunchanagiri composite English High School
+8092641024,Deekshitha V,,5,Shivamogga,Sri Adichunchanagiri composite English High School
+8092641025,Dhavan N,,5,Shivamogga,Sri Adichunchanagiri composite English High School
+8092641026,Dhruthi P,,5,Shivamogga,Sri Adichunchanagiri composite English High School
+8092641027,Faiz Khan,,5,Shivamogga,Sri Adichunchanagiri composite English High School
+8092641028,G Y Manya,,5,Shivamogga,Sri Adichunchanagiri composite English High School
+8092641029,Hamsini A,,5,Shivamogga,Sri Adichunchanagiri composite English High School
+8092641030,Hemanth R,,5,Shivamogga,Sri Adichunchanagiri composite English High School
+8092641031,Jhanavi P Patil,,5,Shivamogga,Sri Adichunchanagiri composite English High School
+8092641032,Karthik M,,5,Shivamogga,Sri Adichunchanagiri composite English High School
+8092641033,Kishan M,,5,Shivamogga,Sri Adichunchanagiri composite English High School
+8092641034,Kishor Patil H D,,5,Shivamogga,Sri Adichunchanagiri composite English High School
+8092641035,Koushik S,,5,Shivamogga,Sri Adichunchanagiri composite English High School
+8092641036,Muzzamil Hussain,,5,Shivamogga,Sri Adichunchanagiri composite English High School
+8092641037,Nihal A,,5,Shivamogga,Sri Adichunchanagiri composite English High School
+8092641038,Nishmitha P S,,5,Shivamogga,Sri Adichunchanagiri composite English High School
+8092641039,Nivaant A,,5,Shivamogga,Sri Adichunchanagiri composite English High School
+8092641040,Poorval J Gowda,,5,Shivamogga,Sri Adichunchanagiri composite English High School
+8092641041,Prathik A,,5,Shivamogga,Sri Adichunchanagiri composite English High School
+8092641042,Rasika K,,5,Shivamogga,Sri Adichunchanagiri composite English High School
+8092641043,Rida Fathima,,5,Shivamogga,Sri Adichunchanagiri composite English High School
+8092641044,Sadgun R,,5,Shivamogga,Sri Adichunchanagiri composite English High School
+8092641045,Samarth A,,5,Shivamogga,Sri Adichunchanagiri composite English High School
+8092641046,Sannidhi S,,5,Shivamogga,Sri Adichunchanagiri composite English High School
+8092641047,Sanvitha M Jadav,,5,Shivamogga,Sri Adichunchanagiri composite English High School
+8092641048,Shivanya M,,5,Shivamogga,Sri Adichunchanagiri composite English High School
+8092641049,Sohan M,,5,Shivamogga,Sri Adichunchanagiri composite English High School
+8092641050,Syed Mohammed Waqas,,5,Shivamogga,Sri Adichunchanagiri composite English High School
+8092641051,Tanmay Gowda M,,5,Shivamogga,Sri Adichunchanagiri composite English High School
+8092641052,Thanush S H,,5,Shivamogga,Sri Adichunchanagiri composite English High School
+8092641053,Tvisha M,,5,Shivamogga,Sri Adichunchanagiri composite English High School
+8092641054,Vayil Aariz,,5,Shivamogga,Sri Adichunchanagiri composite English High School
+8092641055,Vinay S,,5,Shivamogga,Sri Adichunchanagiri composite English High School
+8092641056,Vinu N K,,5,Shivamogga,Sri Adichunchanagiri composite English High School
+8092641057,Yashaswi A S,,5,Shivamogga,Sri Adichunchanagiri composite English High School
+8092641058,Yashaswini V,,5,Shivamogga,Sri Adichunchanagiri composite English High School
+8092641059,Hanumatha Naik D N,,5,Shivamogga,Sri Adichunchanagiri composite English High School
+8092641060,Aadya G Shet,,5,Shivamogga,Sri Adichunchanagiri composite English High School
+8092641061,Aaradhya G Shet,,5,Shivamogga,Sri Adichunchanagiri composite English High School
+8092641062,Adithya K S,,5,Shivamogga,Sri Adichunchanagiri composite English High School
+8092641063,Akul M R,,5,Shivamogga,Sri Adichunchanagiri composite English High School
+8092641064,Arya K P,,5,Shivamogga,Sri Adichunchanagiri composite English High School
+8092641065,Arya Kavi,,5,Shivamogga,Sri Adichunchanagiri composite English High School
+8092641066,Atharva N Hondalagadde,,5,Shivamogga,Sri Adichunchanagiri composite English High School
+8092641067,Bhavithri A Shetty,,5,Shivamogga,Sri Adichunchanagiri composite English High School
+8092641068,Daivik R,,5,Shivamogga,Sri Adichunchanagiri composite English High School
+8092641069,Deeksha S,,5,Shivamogga,Sri Adichunchanagiri composite English High School
+8092641070,Deeksha S C,,5,Shivamogga,Sri Adichunchanagiri composite English High School
+8092641071,Divakar Rao K N,,5,Shivamogga,Sri Adichunchanagiri composite English High School
+8092641072,Gurupreet R,,5,Shivamogga,Sri Adichunchanagiri composite English High School
+8092641073,Haripriya Haripriya,,5,Shivamogga,Sri Adichunchanagiri composite English High School
+8092641074,Harshika S S,,5,Shivamogga,Sri Adichunchanagiri composite English High School
+8092641075,Himanshu Himanshu,,5,Shivamogga,Sri Adichunchanagiri composite English High School
+8092641076,Hruthvik S,,5,Shivamogga,Sri Adichunchanagiri composite English High School
+8092641077,Koushik S Gowda,,5,Shivamogga,Sri Adichunchanagiri composite English High School
+8092641078,Kruthika J B,,5,Shivamogga,Sri Adichunchanagiri composite English High School
+8092641079,M Shrujan Gowda,,5,Shivamogga,Sri Adichunchanagiri composite English High School
+8092641080,Mohammed Nawaz,,5,Shivamogga,Sri Adichunchanagiri composite English High School
+8092641081,Monal D S,,5,Shivamogga,Sri Adichunchanagiri composite English High School
+8092641082,Nandan S Uppar,,5,Shivamogga,Sri Adichunchanagiri composite English High School
+8092641083,Nikhilesh Sagar P,,5,Shivamogga,Sri Adichunchanagiri composite English High School
+8092641084,Nishchith Gowda,,5,Shivamogga,Sri Adichunchanagiri composite English High School
+8092641085,Pranav J B,,5,Shivamogga,Sri Adichunchanagiri composite English High School
+8092641086,Ridesh Naik N H,,5,Shivamogga,Sri Adichunchanagiri composite English High School
+8092641087,Samarth H,,5,Shivamogga,Sri Adichunchanagiri composite English High School
+8092641088,Sannidhi P,,5,Shivamogga,Sri Adichunchanagiri composite English High School
+8092641089,Sannidhi R,,5,Shivamogga,Sri Adichunchanagiri composite English High School
+8092641090,Shreyas V,,5,Shivamogga,Sri Adichunchanagiri composite English High School
+8092641091,Siddharth T,,5,Shivamogga,Sri Adichunchanagiri composite English High School
+8092641092,Siri S Angadi,,5,Shivamogga,Sri Adichunchanagiri composite English High School
+8092641093,Sudheeksha A H,,5,Shivamogga,Sri Adichunchanagiri composite English High School
+8092641094,Swara S,,5,Shivamogga,Sri Adichunchanagiri composite English High School
+8092641095,Tehfeem Fathima,,5,Shivamogga,Sri Adichunchanagiri composite English High School
+8092641096,Tejasvi K Gowda,,5,Shivamogga,Sri Adichunchanagiri composite English High School
+8092641097,V Sanvi,,5,Shivamogga,Sri Adichunchanagiri composite English High School
+8092641098,Varsha V,,5,Shivamogga,Sri Adichunchanagiri composite English High School
+8092641099,Vedanth Patil S,,5,Shivamogga,Sri Adichunchanagiri composite English High School
+8092641100,Vibhusha G Hiremath,,5,Shivamogga,Sri Adichunchanagiri composite English High School
+8092641101,Vikas Choudhary,,5,Shivamogga,Sri Adichunchanagiri composite English High School
+8092641102,Yashvi S Y,,5,Shivamogga,Sri Adichunchanagiri composite English High School
+8092641103,Abhiram A B,,5,Shivamogga,Sri Adichunchanagiri composite English High School
+8092641104,Advaith K A,,5,Shivamogga,Sri Adichunchanagiri composite English High School
+8092641105,Akshay Kiran Shet,,5,Shivamogga,Sri Adichunchanagiri composite English High School
+8092641106,Anushka R,,5,Shivamogga,Sri Adichunchanagiri composite English High School
+8092641107,Anushri R,,5,Shivamogga,Sri Adichunchanagiri composite English High School
+8092641108,Apeksha N N,,5,Shivamogga,Sri Adichunchanagiri composite English High School
+8092641109,Aryan A,,5,Shivamogga,Sri Adichunchanagiri composite English High School
+8092641110,Aryan R,,5,Shivamogga,Sri Adichunchanagiri composite English High School
+8092641111,Ashwin U,,5,Shivamogga,Sri Adichunchanagiri composite English High School
+8092641112,Ayan A Hulgur,,5,Shivamogga,Sri Adichunchanagiri composite English High School
+8092641113,Charulatha K,,5,Shivamogga,Sri Adichunchanagiri composite English High School
+8092641114,Deekshith D C,,5,Shivamogga,Sri Adichunchanagiri composite English High School
+8092641115,Diganth U B,,5,Shivamogga,Sri Adichunchanagiri composite English High School
+8092641116,Govardhan M S,,5,Shivamogga,Sri Adichunchanagiri composite English High School
+8092641117,Harshith S,,5,Shivamogga,Sri Adichunchanagiri composite English High School
+8092641118,Jeevandeep B,,5,Shivamogga,Sri Adichunchanagiri composite English High School
+8092641119,Koushik C R,,5,Shivamogga,Sri Adichunchanagiri composite English High School
+8092641120,Lakshith S Devadiga,,5,Shivamogga,Sri Adichunchanagiri composite English High School
+8092641121,Lipi S,,5,Shivamogga,Sri Adichunchanagiri composite English High School
+8092641122,Madhusudhan K,,5,Shivamogga,Sri Adichunchanagiri composite English High School
+8092641123,Manojna S,,5,Shivamogga,Sri Adichunchanagiri composite English High School
+8092641124,Monisha S N,,5,Shivamogga,Sri Adichunchanagiri composite English High School
+8092641125,Namitha P,,5,Shivamogga,Sri Adichunchanagiri composite English High School
+8092641126,Neeraj M S,,5,Shivamogga,Sri Adichunchanagiri composite English High School
+8092641127,Nishal M,,5,Shivamogga,Sri Adichunchanagiri composite English High School
+8092641128,Partha Sarathi M,,5,Shivamogga,Sri Adichunchanagiri composite English High School
+8092641129,Pranamya M,,5,Shivamogga,Sri Adichunchanagiri composite English High School
+8092641130,Preethi S P,,5,Shivamogga,Sri Adichunchanagiri composite English High School
+8092641131,Prekshith Gowda,,5,Shivamogga,Sri Adichunchanagiri composite English High School
+8092641132,S P Monika,,5,Shivamogga,Sri Adichunchanagiri composite English High School
+8092641133,Sathiwik Gowda V,,5,Shivamogga,Sri Adichunchanagiri composite English High School
+8092641134,Sharadhi Gudemane,,5,Shivamogga,Sri Adichunchanagiri composite English High School
+8092641135,Sohan Jagadeesh Pavaskar,,5,Shivamogga,Sri Adichunchanagiri composite English High School
+8092641136,Sukhada G Nadig,,5,Shivamogga,Sri Adichunchanagiri composite English High School
+8092641137,Sulekha N,,5,Shivamogga,Sri Adichunchanagiri composite English High School
+8092641138,Tanvi D M,,5,Shivamogga,Sri Adichunchanagiri composite English High School
+8092641139,Thejashree B,,5,Shivamogga,Sri Adichunchanagiri composite English High School
+8092641140,Thejaswi S J,,5,Shivamogga,Sri Adichunchanagiri composite English High School
+8092641141,Trijal M P Palegara,,5,Shivamogga,Sri Adichunchanagiri composite English High School
+8092641142,Vaishnavi S D,,5,Shivamogga,Sri Adichunchanagiri composite English High School
+8092641143,Yashas R,,5,Shivamogga,Sri Adichunchanagiri composite English High School
+8092641144,Yashaswini D,,5,Shivamogga,Sri Adichunchanagiri composite English High School
+8092641145,Darshan J,,7,Shivamogga,Sri Adichunchanagiri composite English High School
+8092641146,Mohith Gowda,,7,Shivamogga,Sri Adichunchanagiri composite English High School
+8092641147,Dhanush T,,7,Shivamogga,Sri Adichunchanagiri composite English High School
+8092641148,Vishwanath Gowda,,7,Shivamogga,Sri Adichunchanagiri composite English High School
+8092641149,Harshini R Madivalar ,,7,Shivamogga,Sri Adichunchanagiri composite English High School
+8092641150,Harshika N H,,7,Shivamogga,Sri Adichunchanagiri composite English High School
+8092641151,Pragathi M,,7,Shivamogga,Sri Adichunchanagiri composite English High School
+8092641152,Ganavi B K,,7,Shivamogga,Sri Adichunchanagiri composite English High School
+8092641153,Vachan S H,,8,Shivamogga,Sri Adichunchanagiri composite English High School
+8092641154,Desh Abhilash S D,,8,Shivamogga,Sri Adichunchanagiri composite English High School
+8092641155,Mohammed Afnan,,8,Shivamogga,Sri Adichunchanagiri composite English High School
+8092641156,Sai Lalith S,,8,Shivamogga,Sri Adichunchanagiri composite English High School
+8092641157,Mithun G Y,,8,Shivamogga,Sri Adichunchanagiri composite English High School
+8092641158,Sinchana R,,8,Shivamogga,Sri Adichunchanagiri composite English High School
+8092641159,Poojith T R,,8,Shivamogga,Sri Adichunchanagiri composite English High School
+8092641160,J Thanmay Kumar,,8,Shivamogga,Sri Adichunchanagiri composite English High School
+8092641161,Pranamya C,,8,Shivamogga,Sri Adichunchanagiri composite English High School
+8092641162,T G Kiran Kumar,,8,Shivamogga,Sri Adichunchanagiri composite English High School
+8092641163,S P Rohith,,8,Shivamogga,Sri Adichunchanagiri composite English High School
+8092641164,Danish B B,,8,Shivamogga,Sri Adichunchanagiri composite English High School
+8092641165,Madhurya S,,8,Shivamogga,Sri Adichunchanagiri composite English High School
+8092641166,Mahanth M S,,8,Shivamogga,Sri Adichunchanagiri composite English High School
+8092641167,Neepa S,,8,Shivamogga,Sri Adichunchanagiri composite English High School
+8092641168,G U Kishor,,8,Shivamogga,Sri Adichunchanagiri composite English High School
+8092641169,Roshni S,,8,Shivamogga,Sri Adichunchanagiri composite English High School
+8092641170,Dayananda K V,,8,Shivamogga,Sri Adichunchanagiri composite English High School
+8092641171,Bhuvana T S,,8,Shivamogga,Sri Adichunchanagiri composite English High School
+8092641172,Ganashree S,,8,Shivamogga,Sri Adichunchanagiri composite English High School
+8092641173,Srihari Kulkarni,,8,Shivamogga,Sri Adichunchanagiri composite English High School
+8092641174,Shashank A S,,8,Shivamogga,Sri Adichunchanagiri composite English High School
+8092641175,Adarsh R Malavade,,8,Shivamogga,Sri Adichunchanagiri composite English High School
+8092641176,Tejas H,,8,Shivamogga,Sri Adichunchanagiri composite English High School
+8092641177,Chandana T P,,8,Shivamogga,Sri Adichunchanagiri composite English High School
+8092641178,Prarthana S Y,,8,Shivamogga,Sri Adichunchanagiri composite English High School
+8092641179,Saiesh Bharadwaj K R,,8,Shivamogga,Sri Adichunchanagiri composite English High School
+8092641180,Preksha L Gowda,,8,Shivamogga,Sri Adichunchanagiri composite English High School
+8092641181,Rishika K S,,8,Shivamogga,Sri Adichunchanagiri composite English High School
+8092641182,Sitanshu Y K,,8,Shivamogga,Sri Adichunchanagiri composite English High School
+8092641183,Preetham G A,,9,Shivamogga,Sri Adichunchanagiri composite English High School
+8092641184,Vishwas R S,,9,Shivamogga,Sri Adichunchanagiri composite English High School
+8092641185,Rakshita C,,9,Shivamogga,Sri Adichunchanagiri composite English High School
+8092641186,Samrudh Surya G N,,9,Shivamogga,Sri Adichunchanagiri composite English High School
+8092641187,N Sonali Savant Savant,,9,Shivamogga,Sri Adichunchanagiri composite English High School
+8092641188,Dhanush K S,,9,Shivamogga,Sri Adichunchanagiri composite English High School
+8092641189,Akshaya M R,,9,Shivamogga,Sri Adichunchanagiri composite English High School
+8092641190,Keerthi G H,,9,Shivamogga,Sri Adichunchanagiri composite English High School
+8092641191,Chethan D,,10,Shivamogga,Sri Adichunchanagiri composite English High School
+8092641192,A Pranitashri,,2,Shivamogga,Sri Adichunchanagiri composite English High School
+8092641193,Aadhvik S,,2,Shivamogga,Sri Adichunchanagiri composite English High School
+8092641194,Advika B S,,2,Shivamogga,Sri Adichunchanagiri composite English High School
+8092641195,Ahadulla Khan,,2,Shivamogga,Sri Adichunchanagiri composite English High School
+8092641196,Aradhya R,,2,Shivamogga,Sri Adichunchanagiri composite English High School
+8092641197,Aradhya G S,,2,Shivamogga,Sri Adichunchanagiri composite English High School
+8092641198,B Abdul Rauoof,,2,Shivamogga,Sri Adichunchanagiri composite English High School
+8092641199,B P Hemanth,,2,Shivamogga,Sri Adichunchanagiri composite English High School
+8092641200,Charika S,,2,Shivamogga,Sri Adichunchanagiri composite English High School
+8092641201,D Saatvik,,2,Shivamogga,Sri Adichunchanagiri composite English High School
+8092641202,Deepana K,,2,Shivamogga,Sri Adichunchanagiri composite English High School
+8092641203,Disha S Revankar,,2,Shivamogga,Sri Adichunchanagiri composite English High School
+8092641204,Gaganesh A,,2,Shivamogga,Sri Adichunchanagiri composite English High School
+8092641205,H R Samartha,,2,Shivamogga,Sri Adichunchanagiri composite English High School
+8092641206,Hanvitha G Harthi,,2,Shivamogga,Sri Adichunchanagiri composite English High School
+8092641207,Jahnavi N M,,2,Shivamogga,Sri Adichunchanagiri composite English High School
+8092641208,Jeevankumar P,,2,Shivamogga,Sri Adichunchanagiri composite English High School
+8092641209,Manvita M A,,2,Shivamogga,Sri Adichunchanagiri composite English High School
+8092641210,Manvitha S Shet,,2,Shivamogga,Sri Adichunchanagiri composite English High School
+8092641211,Poorvaj S,,2,Shivamogga,Sri Adichunchanagiri composite English High School
+8092641212,Poorvik H P,,2,Shivamogga,Sri Adichunchanagiri composite English High School
+8092641213,Poorvika Malathesh Suryavanshi,,2,Shivamogga,Sri Adichunchanagiri composite English High School
+8092641214,Rathan S,,2,Shivamogga,Sri Adichunchanagiri composite English High School
+8092641215,Rishi H S,,2,Shivamogga,Sri Adichunchanagiri composite English High School
+8092641216,S Prabhas,,2,Shivamogga,Sri Adichunchanagiri composite English High School
+8092641217,Saihruday T Gowda,,2,Shivamogga,Sri Adichunchanagiri composite English High School
+8092641218,Sanvika S K,,2,Shivamogga,Sri Adichunchanagiri composite English High School
+8092641219,Sathwik C,,2,Shivamogga,Sri Adichunchanagiri composite English High School
+8092641220,Sharanya Gowda B S,,2,Shivamogga,Sri Adichunchanagiri composite English High School
+8092641221,Shashankraj M N,,2,Shivamogga,Sri Adichunchanagiri composite English High School
+8092641222,Shreyas S P,,2,Shivamogga,Sri Adichunchanagiri composite English High School
+8092641223,Siri B,,2,Shivamogga,Sri Adichunchanagiri composite English High School
+8092641224,Syeda Mehreen,,2,Shivamogga,Sri Adichunchanagiri composite English High School
+8092641225,V Saimithrann,,2,Shivamogga,Sri Adichunchanagiri composite English High School
+8092641226,Vardhan L Hiremath,,2,Shivamogga,Sri Adichunchanagiri composite English High School
+8092641227,Vihaan Kallalli,,2,Shivamogga,Sri Adichunchanagiri composite English High School
+8092641228,Yash Choudhary,,2,Shivamogga,Sri Adichunchanagiri composite English High School
+8092641229,Yashaswini A H,,2,Shivamogga,Sri Adichunchanagiri composite English High School
+8092641230,Yojith G,,2,Shivamogga,Sri Adichunchanagiri composite English High School
+8092641231,Yuvaraj L V,,2,Shivamogga,Sri Adichunchanagiri composite English High School
+8092641232,A Chandan,,2,Shivamogga,Sri Adichunchanagiri composite English High School
+8092641233,Aadvi D M,,2,Shivamogga,Sri Adichunchanagiri composite English High School
+8092641234,Aarav J P,,2,Shivamogga,Sri Adichunchanagiri composite English High School
+8092641235,Advika M Gowda,,2,Shivamogga,Sri Adichunchanagiri composite English High School
+8092641236,Aradhaya Kiran Shet,,2,Shivamogga,Sri Adichunchanagiri composite English High School
+8092641237,Arya K,,2,Shivamogga,Sri Adichunchanagiri composite English High School
+8092641238,Chandan K S,,2,Shivamogga,Sri Adichunchanagiri composite English High School
+8092641239,Charu D A,,2,Shivamogga,Sri Adichunchanagiri composite English High School
+8092641240,Chethas G,,2,Shivamogga,Sri Adichunchanagiri composite English High School
+8092641241,Chirag Gowda R,,2,Shivamogga,Sri Adichunchanagiri composite English High School
+8092641242,Chirag J S,,2,Shivamogga,Sri Adichunchanagiri composite English High School
+8092641243,Chirayu M Naik,,2,Shivamogga,Sri Adichunchanagiri composite English High School
+8092641244,Chirayush M,,2,Shivamogga,Sri Adichunchanagiri composite English High School
+8092641245,Dishanth V S,,2,Shivamogga,Sri Adichunchanagiri composite English High School
+8092641246,Harshavardhan RaJu Ganekalla,,2,Shivamogga,Sri Adichunchanagiri composite English High School
+8092641247,Hemanth S,,2,Shivamogga,Sri Adichunchanagiri composite English High School
+8092641248,Hithashvi S Y,,2,Shivamogga,Sri Adichunchanagiri composite English High School
+8092641249,Jayan K,,2,Shivamogga,Sri Adichunchanagiri composite English High School
+8092641250,Lekhana V,,2,Shivamogga,Sri Adichunchanagiri composite English High School
+8092641251,Liriksha S,,2,Shivamogga,Sri Adichunchanagiri composite English High School
+8092641252,Mayura Sagar P,,2,Shivamogga,Sri Adichunchanagiri composite English High School
+8092641253,Nishanth C,,2,Shivamogga,Sri Adichunchanagiri composite English High School
+8092641254,Poorvika V,,2,Shivamogga,Sri Adichunchanagiri composite English High School
+8092641255,Pranika U P,,2,Shivamogga,Sri Adichunchanagiri composite English High School
+8092641256,Rithwik N Bhat,,2,Shivamogga,Sri Adichunchanagiri composite English High School
+8092641257,Saanvi S,,2,Shivamogga,Sri Adichunchanagiri composite English High School
+8092641258,Sanitha U S,,2,Shivamogga,Sri Adichunchanagiri composite English High School
+8092641259,Sathwik H,,2,Shivamogga,Sri Adichunchanagiri composite English High School
+8092641260,Shaista Sulthana,,2,Shivamogga,Sri Adichunchanagiri composite English High School
+8092641261,Siri L,,2,Shivamogga,Sri Adichunchanagiri composite English High School
+8092641262,Sri Ranga Vishnu,,2,Shivamogga,Sri Adichunchanagiri composite English High School
+8092641263,Swara H R,,2,Shivamogga,Sri Adichunchanagiri composite English High School
+8092641264,Tanush R Bedre,,2,Shivamogga,Sri Adichunchanagiri composite English High School
+8092641265,Vagmi S R,,2,Shivamogga,Sri Adichunchanagiri composite English High School
+8092641266,Vedantha R,,2,Shivamogga,Sri Adichunchanagiri composite English High School
+8092641267,Veeksha Gowda U M,,2,Shivamogga,Sri Adichunchanagiri composite English High School
+8092641268,Yuvan Srinivasa Telkar S,,2,Shivamogga,Sri Adichunchanagiri composite English High School
+8092641269,B Abdul Rafaan,,2,Shivamogga,Sri Adichunchanagiri composite English High School
+8092641270,Aakash M,,1,Shivamogga,Sri Adichunchanagiri composite English High School
+8092641271,Aarushi Harshini C C,,1,Shivamogga,Sri Adichunchanagiri composite English High School
+8092641272,Aditi Bharath Sogi,,1,Shivamogga,Sri Adichunchanagiri composite English High School
+8092641273,Arya Vardhan Raju,,1,Shivamogga,Sri Adichunchanagiri composite English High School
+8092641274,Aryan A,,1,Shivamogga,Sri Adichunchanagiri composite English High School
+8092641275,Chinmayee K,,1,Shivamogga,Sri Adichunchanagiri composite English High School
+8092641276,Dravida K,,1,Shivamogga,Sri Adichunchanagiri composite English High School
+8092641277,Druvanth A P,,1,Shivamogga,Sri Adichunchanagiri composite English High School
+8092641278,H P Praneeth Raj,,1,Shivamogga,Sri Adichunchanagiri composite English High School
+8092641279,Harshitha A T,,1,Shivamogga,Sri Adichunchanagiri composite English High School
+8092641280,Hema Prasad J,,1,Shivamogga,Sri Adichunchanagiri composite English High School
+8092641281,Jahnavi H,,1,Shivamogga,Sri Adichunchanagiri composite English High School
+8092641282,Jhagatri S Achar,,1,Shivamogga,Sri Adichunchanagiri composite English High School
+8092641283,K Mohammed Rashid,,1,Shivamogga,Sri Adichunchanagiri composite English High School
+8092641284,Lavanya S R,,1,Shivamogga,Sri Adichunchanagiri composite English High School
+8092641285,Manha Fathima,,1,Shivamogga,Sri Adichunchanagiri composite English High School
+8092641286,Mohammed Ayan Javeed,,1,Shivamogga,Sri Adichunchanagiri composite English High School
+8092641287,Mokshith A,,1,Shivamogga,Sri Adichunchanagiri composite English High School
+8092641288,N K Sanvi Jyothi Kiran Shetty,,1,Shivamogga,Sri Adichunchanagiri composite English High School
+8092641289,Naithik S,,1,Shivamogga,Sri Adichunchanagiri composite English High School
+8092641290,Nikhil Krishna N,,1,Shivamogga,Sri Adichunchanagiri composite English High School
+8092641291,Nithyashree M,,1,Shivamogga,Sri Adichunchanagiri composite English High School
+8092641292,Rachana I A,,1,Shivamogga,Sri Adichunchanagiri composite English High School
+8092641293,Rishika R,,1,Shivamogga,Sri Adichunchanagiri composite English High School
+8092641294,Sadiya Ayra Khanum,,1,Shivamogga,Sri Adichunchanagiri composite English High School
+8092641295,Sakshara P Gowda,,1,Shivamogga,Sri Adichunchanagiri composite English High School
+8092641296,Shreyas K H,,1,Shivamogga,Sri Adichunchanagiri composite English High School
+8092641297,Siri M,,1,Shivamogga,Sri Adichunchanagiri composite English High School
+8092641298,Trishika A Shetty,,1,Shivamogga,Sri Adichunchanagiri composite English High School
+8092641299,Vasishta A,,1,Shivamogga,Sri Adichunchanagiri composite English High School
+8092641300,Achinthya N Hondalagadde,,1,Shivamogga,Sri Adichunchanagiri composite English High School
+8092641301,Apeksha J S,,1,Shivamogga,Sri Adichunchanagiri composite English High School
+8092641302,Aradhya A,,1,Shivamogga,Sri Adichunchanagiri composite English High School
+8092641303,Chaithanya N,,1,Shivamogga,Sri Adichunchanagiri composite English High School
+8092641304,Chiru Gowda R,,1,Shivamogga,Sri Adichunchanagiri composite English High School
+8092641305,Danvitha A,,1,Shivamogga,Sri Adichunchanagiri composite English High School
+8092641306,Dhanush P,,1,Shivamogga,Sri Adichunchanagiri composite English High School
+8092641307,G M Punya Bhushana,,1,Shivamogga,Sri Adichunchanagiri composite English High School
+8092641308,Ganavi R,,1,Shivamogga,Sri Adichunchanagiri composite English High School
+8092641309,Hanish S G,,1,Shivamogga,Sri Adichunchanagiri composite English High School
+8092641310,Ishani C,,1,Shivamogga,Sri Adichunchanagiri composite English High School
+8092641311,Kanvi S Shetty,,1,Shivamogga,Sri Adichunchanagiri composite English High School
+8092641312,M Yatish,,1,Shivamogga,Sri Adichunchanagiri composite English High School
+8092641313,Maheena Maheena,,1,Shivamogga,Sri Adichunchanagiri composite English High School
+8092641314,Mohammed Arman,,1,Shivamogga,Sri Adichunchanagiri composite English High School
+8092641315,Mohammed Faraz,,1,Shivamogga,Sri Adichunchanagiri composite English High School
+8092641316,Nithinya P,,1,Shivamogga,Sri Adichunchanagiri composite English High School
+8092641317,Pranav K T,,1,Shivamogga,Sri Adichunchanagiri composite English High School
+8092641318,R Likith,,1,Shivamogga,Sri Adichunchanagiri composite English High School
+8092641319,Rithvik Rathod,,1,Shivamogga,Sri Adichunchanagiri composite English High School
+8092641320,Saanika S,,1,Shivamogga,Sri Adichunchanagiri composite English High School
+8092641321,Samarth M,,1,Shivamogga,Sri Adichunchanagiri composite English High School
+8092641322,Spandana S,,1,Shivamogga,Sri Adichunchanagiri composite English High School
+8092641323,Swara Mashal,,1,Shivamogga,Sri Adichunchanagiri composite English High School
+8092641324,Thanvik S,,1,Shivamogga,Sri Adichunchanagiri composite English High School
+8092641325,Vibha Y,,1,Shivamogga,Sri Adichunchanagiri composite English High School
+8092641326,Virat Sagar R,,1,Shivamogga,Sri Adichunchanagiri composite English High School
+8092641327,Yakshith Aaryan U,,1,Shivamogga,Sri Adichunchanagiri composite English High School
+8092641328,Yashas D,,1,Shivamogga,Sri Adichunchanagiri composite English High School
+8092641329,Deeksha S  Chavade,,5,Shivamogga,Sri Adichunchanagiri composite English High School
+8092641330,Harshitha  J S,,7,Shivamogga,Sri Adichunchanagiri composite English High School
+8092641331,Nishanth  B,,8,Shivamogga,Sri Adichunchanagiri composite English High School
+8092641332,Syed  Reehan,,8,Shivamogga,Sri Adichunchanagiri composite English High School
+8092641333,Tejas  S,,9,Shivamogga,Sri Adichunchanagiri composite English High School

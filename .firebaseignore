@@ -1,0 +1,15 @@
+# Firebase
+.firebase/
+.firebaserc
+
+# System
+.DS_Store
+Thumbs.db
+
+# Editor
+.vscode/
+.idea/
+
+# Backup files
+*.bak
+*~
