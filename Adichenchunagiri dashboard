@@ -11,7 +11,12 @@
     <style>
         body {
             box-sizing: border-box;
-            zoom: 0.75;
+            transform: scale(0.75);
+            transform-origin: top left;
+            width: 133.33% !important;
+            height: 133.33% !important;
+            margin: 0;
+            overflow-x: hidden;
         }
 
         * {
@@ -1857,8 +1862,9 @@
                     responsive: true,
                     maintainAspectRatio: false,
                     interaction: {
-                        mode: 'nearest',
-                        intersect: true
+                        mode: 'index',
+                        intersect: false,
+                        axis: 'x'
                     },
                     onClick: (e, activeEls) => {
                         if (activeEls.length > 0) {
@@ -1877,7 +1883,7 @@
                     plugins: {
                         legend: { position: 'bottom', labels: { boxWidth: 10, font: { size: 9 } } },
                         tooltip: {
-                            position: 'average',
+                            position: 'nearest',
                             yAlign: 'bottom'
                         }
                     }
@@ -1894,8 +1900,9 @@
                     responsive: true,
                     maintainAspectRatio: false,
                     interaction: {
-                        mode: 'nearest',
-                        intersect: true
+                        mode: 'index',
+                        intersect: false,
+                        axis: 'x'
                     },
                     scales: { y: { beginAtZero: true, max: 100 } },
                     plugins: {
