@@ -1952,7 +1952,7 @@
                     scales: { y: { beginAtZero: true, max: 100 } },
                     plugins: {
                         tooltip: {
-                            position: 'average',
+                            position: 'nearest',
                             yAlign: 'bottom',
                             callbacks: {
                                 label: (c) => {
