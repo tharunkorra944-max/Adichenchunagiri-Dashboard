@@ -1856,6 +1856,10 @@
                 options: {
                     responsive: true,
                     maintainAspectRatio: false,
+                    interaction: {
+                        mode: 'nearest',
+                        intersect: true
+                    },
                     onClick: (e, activeEls) => {
                         if (activeEls.length > 0) {
                             const firstPoint = activeEls[0];
@@ -1871,7 +1875,11 @@
                         y: { stacked: false, beginAtZero: true, title: { display: true, text: 'Count' } }
                     },
                     plugins: {
-                        legend: { position: 'bottom', labels: { boxWidth: 10, font: { size: 9 } } }
+                        legend: { position: 'bottom', labels: { boxWidth: 10, font: { size: 9 } } },
+                        tooltip: {
+                            position: 'average',
+                            yAlign: 'bottom'
+                        }
                     }
                 }
             });
@@ -1885,7 +1893,17 @@
                 options: {
                     responsive: true,
                     maintainAspectRatio: false,
+                    interaction: {
+                        mode: 'nearest',
+                        intersect: true
+                    },
                     scales: { y: { beginAtZero: true, max: 100 } },
+                    plugins: {
+                        tooltip: {
+                            position: 'average',
+                            yAlign: 'bottom'
+                        }
+                    },
                     onClick: (e, activeEls) => {
                         if (activeEls.length > 0) {
                             const firstPoint = activeEls[0];
@@ -1927,9 +1945,15 @@
                 options: {
                     responsive: true,
                     maintainAspectRatio: false,
+                    interaction: {
+                        mode: 'nearest',
+                        intersect: true
+                    },
                     scales: { y: { beginAtZero: true, max: 100 } },
                     plugins: {
                         tooltip: {
+                            position: 'average',
+                            yAlign: 'bottom',
                             callbacks: {
                                 label: (c) => {
                                     if (c.datasetIndex === 0) {
