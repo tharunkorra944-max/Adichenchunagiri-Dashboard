@@ -11,6 +11,7 @@
     <style>
         body {
             box-sizing: border-box;
+            zoom: 0.75;
         }
 
         * {
@@ -86,47 +87,56 @@
             z-index: 10;
         }
 
-        .filter-select {
-            appearance: none;
-            background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='none' viewBox='0 0 24 24' stroke='%23347363'%3E%3Cpath stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='M19 9l-7 7-7-7'%3E%3C/path%3E%3C/svg%3E");
-            background-repeat: no-repeat;
-            background-position: right 0.7rem center;
-            background-size: 1.2em 1.2em;
-            padding-right: 2.5rem;
-        }
-
-        .action-button {
-            transition: all 0.2s ease;
-        }
-
-        .action-button:hover {
-            transform: scale(1.05);
-            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
-        }
-
-        .legend-item {
-            display: flex;
-            align-items: center;
-            gap: 8px;
-        }
-
-        .legend-color {
-            width: 24px;
-            height: 24px;
+        .skeleton {
+            background: linear-gradient(90deg, #f0f0f0 25%, #e0e0e0 50%, #f0f0f0 75%);
+            background-size: 200% 100%;
+            animation: skeleton-loading 1.5s infinite;
             border-radius: 4px;
         }
 
-        .section-header {
-            border-bottom: 3px solid #347363;
-            padding-bottom: 12px;
-            margin-bottom: 24px;
+        @keyframes skeleton-loading {
+            0% {
+                background-position: 200% 0;
+            }
+
+            100% {
+                background-position: -200% 0;
+            }
         }
 
-        .status-badge {
-            font-weight: 600;
-            font-size: 11px;
-            letter-spacing: 0.5px;
-            text-transform: uppercase;
+        @media print {
+
+            header,
+            aside,
+            .action-button,
+            #back-to-students,
+            button {
+                display: none !important;
+            }
+
+            main {
+                margin: 0 !important;
+                padding: 0 !important;
+            }
+
+            .section-content:not(#report-card) {
+                display: none !important;
+            }
+
+            #report-card {
+                display: block !important;
+                padding: 20px;
+            }
+
+            .bg-gradient-to-r {
+                background: #f3f4f6 !important;
+                color: black !important;
+                border: 1px solid #ddd;
+            }
+
+            .text-white {
+                color: black !important;
+            }
         }
 
         .insight-card {
@@ -179,7 +189,7 @@
     <aside class="fixed top-20 left-0 bottom-0 w-72 overflow-y-auto z-20 shadow-xl" id="sidebar"
         style="background-color: #347363;">
         <nav class="p-5 space-y-2">
-            <a href="#participation" class="nav-item flex items-center space-x-4 px-5 py-4 rounded-xl text-white"
+            <a href="#participation" class="nav-item flex items-center space-x-4 px-5 py-4 rounded-xl text-white active"
                 data-section="participation"> <span class="text-2xl">✅</span> <span
                     class="font-medium text-base">Student Participation</span> </a>
             <a href="#overview" class="nav-item flex items-center space-x-4 px-5 py-4 rounded-xl text-white"
@@ -218,7 +228,7 @@
 
                 <div class="bg-white p-6 rounded-2xl shadow-lg border-2 border-gray-100">
                     <h3 class="text-xl font-bold text-gray-800 mb-4">Participation Breakdown</h3>
-                    <div class="space-y-4">
+                    <div class="space-y-4" id="participation-stats-container">
                         <!-- Total Registered Addition -->
                         <div
                             class="flex items-center justify-between p-4 bg-gradient-to-r from-blue-50 to-blue-100 rounded-xl border-l-4 border-blue-500">
@@ -293,6 +303,10 @@
                         <p class="text-sm text-gray-500" id="drilldown-subtitle">Detailed breakdown of students</p>
                     </div>
                     <div class="flex items-center gap-4">
+                        <button onclick="exportTableToExcel('drilldown-table-body', 'Participation_Drilldown')"
+                            class="px-4 py-2 bg-green-600 text-white rounded-lg hover:bg-green-700 font-bold transition-colors">
+                            📥 Export Excel
+                        </button>
                         <div id="participation-filter-wrapper" class="flex items-center gap-2">
                             <label class="text-sm font-bold text-gray-600">Filter:</label>
                             <select id="participation-list-status-filter"
@@ -330,10 +344,11 @@
             <div class="bg-white p-6 rounded-2xl shadow-lg border-2 border-gray-100 mb-8">
                 <div class="flex flex-wrap items-center justify-between mb-6">
                     <div>
-                        <h3 class="text-xl font-bold text-gray-800 mb-2">Subject-Specific Gap Counts (Table)</h3>
-                        <p class="text-sm text-gray-600">Detailed count distribution side-by-side. <br><span
-                                class="text-xs italic text-gray-500 font-bold">*At Grade Level = Passed level X-1
-                                (Capped at Level 6 for Grades 7-10).</span></p>
+                        <h3 class="text-xl font-bold text-gray-800 mb-2">Subject-Specific Mastery Distribution (Table)
+                        </h3>
+                        <p class="text-sm text-gray-600">Detailed count distribution by Mastery Level. <br><span
+                                class="text-xs italic text-gray-500 font-bold">*Green = Target Level or Above; Orange =
+                                Previous 2 levels.</span></p>
                     </div>
                     <div class="flex gap-2">
                         <select id="gap-dist-grade-filter"
@@ -347,7 +362,7 @@
                     <!-- Math Gap Table -->
                     <div>
                         <h4 class="text-sm font-bold text-blue-600 mb-3 flex items-center gap-2">
-                            <span class="w-3 h-3 rounded-full bg-blue-600"></span> Mathematics Gaps
+                            <span class="w-3 h-3 rounded-full bg-blue-600"></span> Mathematics Mastery
                         </h4>
                         <div class="overflow-x-auto">
                             <table class="w-full border-collapse text-xs text-center">
@@ -356,13 +371,14 @@
                                         <th
                                             class="p-2 border font-bold text-left sticky left-0 bg-blue-50 z-10 text-xs">
                                             Grade</th>
-                                        <th class="p-2 border font-bold bg-green-100 text-green-800">At Grade</th>
-                                        <th class="p-2 border font-bold">1 Yr Below</th>
-                                        <th class="p-2 border font-bold">2 Yrs Below</th>
-                                        <th class="p-2 border font-bold">3 Yrs Below</th>
-                                        <th class="p-2 border font-bold">4 Yrs Below</th>
-                                        <th class="p-2 border font-bold">5 Yrs Below</th>
-                                        <th class="p-2 border font-bold bg-red-100 text-red-900">6 Yrs Below</th>
+                                        <th class="p-2 border font-bold">Lvl 0</th>
+                                        <th class="p-2 border font-bold">Lvl 1</th>
+                                        <th class="p-2 border font-bold">Lvl 2</th>
+                                        <th class="p-2 border font-bold">Lvl 3</th>
+                                        <th class="p-2 border font-bold">Lvl 4</th>
+                                        <th class="p-2 border font-bold">Lvl 5</th>
+                                        <th class="p-2 border font-bold">Lvl 6</th>
+                                        <th class="p-2 border font-bold">Lvl 7</th>
                                     </tr>
                                 </thead>
                                 <tbody id="math-gap-distribution-body">
@@ -374,7 +390,7 @@
                     <!-- English Gap Table -->
                     <div>
                         <h4 class="text-sm font-bold text-green-600 mb-3 flex items-center gap-2">
-                            <span class="w-3 h-3 rounded-full bg-green-600"></span> English Gaps
+                            <span class="w-3 h-3 rounded-full bg-green-600"></span> English Mastery
                         </h4>
                         <div class="overflow-x-auto">
                             <table class="w-full border-collapse text-xs text-center">
@@ -383,13 +399,14 @@
                                         <th
                                             class="p-2 border font-bold text-left sticky left-0 bg-green-50 z-10 text-xs">
                                             Grade</th>
-                                        <th class="p-2 border font-bold bg-green-100 text-green-800">At Grade</th>
-                                        <th class="p-2 border font-bold">1 Yr Below</th>
-                                        <th class="p-2 border font-bold">2 Yrs Below</th>
-                                        <th class="p-2 border font-bold">3 Yrs Below</th>
-                                        <th class="p-2 border font-bold">4 Yrs Below</th>
-                                        <th class="p-2 border font-bold">5 Yrs Below</th>
-                                        <th class="p-2 border font-bold bg-red-100 text-red-900">6 Yrs Below</th>
+                                        <th class="p-2 border font-bold">Lvl 0</th>
+                                        <th class="p-2 border font-bold">Lvl 1</th>
+                                        <th class="p-2 border font-bold">Lvl 2</th>
+                                        <th class="p-2 border font-bold">Lvl 3</th>
+                                        <th class="p-2 border font-bold">Lvl 4</th>
+                                        <th class="p-2 border font-bold">Lvl 5</th>
+                                        <th class="p-2 border font-bold">Lvl 6</th>
+                                        <th class="p-2 border font-bold">Lvl 7</th>
                                     </tr>
                                 </thead>
                                 <tbody id="english-gap-distribution-body">
@@ -404,9 +421,9 @@
             <div class="bg-white p-6 rounded-2xl shadow-lg border-2 border-gray-100 mb-8">
                 <div class="flex flex-wrap items-center justify-between mb-6">
                     <div>
-                        <h3 class="text-xl font-bold text-gray-800 mb-2">Subject-Specific Gap Distribution (Charts)</h3>
-                        <p class="text-sm text-gray-600">Side-by-side count comparison for Mathematics and English gaps.
-                            Click bars to view student details.</p>
+                        <h3 class="text-xl font-bold text-gray-800 mb-2">Mastery Progression (Charts)</h3>
+                        <p class="text-sm text-gray-600"> Progression by Mastery Level. Click bars to view student
+                            details.</p>
                     </div>
                     <div class="flex gap-2">
                         <select id="gap-dist-grade-filter-subjects"
@@ -418,7 +435,7 @@
                 <div class="grid grid-cols-1 lg:grid-cols-2 gap-8">
                     <div>
                         <h4 class="text-sm font-bold text-blue-600 mb-3 flex items-center gap-2">
-                            <span class="w-3 h-3 rounded-full bg-blue-600"></span> Mathematics Gaps
+                            <span class="w-3 h-3 rounded-full bg-blue-600"></span> Mathematics Mastery
                         </h4>
                         <div class="chart-wrapper h-[350px]">
                             <canvas id="math-gap-chart"></canvas>
@@ -426,7 +443,7 @@
                     </div>
                     <div>
                         <h4 class="text-sm font-bold text-green-600 mb-3 flex items-center gap-2">
-                            <span class="w-3 h-3 rounded-full bg-green-600"></span> English Gaps
+                            <span class="w-3 h-3 rounded-full bg-green-600"></span> English Mastery
                         </h4>
                         <div class="chart-wrapper h-[350px]">
                             <canvas id="english-gap-chart"></canvas>
@@ -442,10 +459,17 @@
                         </h3>
                         <p class="text-sm text-gray-500">Showing detailed performance for selected criteria</p>
                     </div>
-                    <button onclick="document.getElementById('grade-specific-list-container').classList.add('hidden')"
-                        class="px-4 py-2 bg-gray-100 text-gray-600 rounded-lg hover:bg-gray-200 font-bold transition-colors">
-                        ✕ Close List
-                    </button>
+                    <div class="flex gap-4">
+                        <button onclick="exportTableToExcel('grade-specific-table-body', 'Filtered_Students')"
+                            class="px-4 py-2 bg-green-600 text-white rounded-lg hover:bg-green-700 font-bold transition-colors">
+                            📥 Export Excel
+                        </button>
+                        <button
+                            onclick="document.getElementById('grade-specific-list-container').classList.add('hidden')"
+                            class="px-4 py-2 bg-gray-100 text-gray-600 rounded-lg hover:bg-gray-200 font-bold transition-colors">
+                            ✕ Close List
+                        </button>
+                    </div>
                 </div>
                 <div class="overflow-x-auto rounded-xl border border-gray-200">
                     <table class="w-full text-sm border-collapse">
@@ -533,29 +557,62 @@
 
             <div class="bg-white p-6 rounded-2xl shadow-lg border-2 border-gray-100 mb-8">
                 <div class="mt-4 pt-4">
-                    <h4 class="text-lg font-bold text-gray-800 mb-4 flex items-center gap-2">
+                    <h4 class="text-xl font-bold text-gray-800 mb-4 flex items-center gap-2">
                         <span>📋</span> Detailed LO Performance Breakdown
                     </h4>
-                    <p class="text-xs text-gray-500 mb-4">Click any row below to view specific student details for that
-                        Learning Objective.</p>
-                    <div class="overflow-x-auto rounded-xl border border-gray-200">
-                        <table class="w-full text-sm border-collapse text-left">
-                            <thead>
-                                <tr class="bg-gray-100 text-gray-700">
-                                    <th class="py-4 px-4 font-bold border-b">Subject</th>
-                                    <th class="py-4 px-4 font-bold border-b">Learning Objective</th>
-                                    <th class="py-4 px-4 font-bold border-b text-center">Question(s)</th>
-                                    <th class="py-4 px-4 font-bold border-b text-center">Performance %</th>
-                                    <th class="py-4 px-4 font-bold border-b text-center">Status</th>
-                                </tr>
-                            </thead>
-                            <tbody id="lo-detailed-table-body">
-                                <tr>
-                                    <td colspan="5" class="text-center py-8 text-gray-400 italic">No data available.
-                                    </td>
-                                </tr>
-                            </tbody>
-                        </table>
+                    <p class="text-xs text-gray-500 mb-6">Learning Objectives sorted by performance percentage in
+                        ascending order. Click any row below to view specific student details.</p>
+
+                    <div class="grid grid-cols-1 lg:grid-cols-2 gap-8">
+                        <!-- Math LO Table -->
+                        <div class="flex flex-col">
+                            <h5 class="text-sm font-bold text-blue-600 mb-3 flex items-center gap-2">
+                                <span class="w-3 h-3 rounded-full bg-blue-600"></span> Mathematics Learning Objectives
+                            </h5>
+                            <div class="overflow-x-auto rounded-xl border border-gray-200">
+                                <table class="w-full text-xs border-collapse text-left">
+                                    <thead>
+                                        <tr class="bg-blue-50 text-blue-800">
+                                            <th class="py-3 px-3 font-bold border-b">Learning Objective</th>
+                                            <th class="py-3 px-2 font-bold border-b text-center">Qs</th>
+                                            <th class="py-3 px-2 font-bold border-b text-center">Score %</th>
+                                            <th class="py-3 px-2 font-bold border-b text-center">Status</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody id="math-lo-detailed-table-body">
+                                        <tr>
+                                            <td colspan="4" class="text-center py-8 text-gray-400 italic">No data
+                                                available.</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+
+                        <!-- English LO Table -->
+                        <div class="flex flex-col">
+                            <h5 class="text-sm font-bold text-green-600 mb-3 flex items-center gap-2">
+                                <span class="w-3 h-3 rounded-full bg-green-600"></span> English Learning Objectives
+                            </h5>
+                            <div class="overflow-x-auto rounded-xl border border-gray-200">
+                                <table class="w-full text-xs border-collapse text-left">
+                                    <thead>
+                                        <tr class="bg-green-50 text-green-800">
+                                            <th class="py-3 px-3 font-bold border-b">Learning Objective</th>
+                                            <th class="py-3 px-2 font-bold border-b text-center">Qs</th>
+                                            <th class="py-3 px-2 font-bold border-b text-center">Score %</th>
+                                            <th class="py-3 px-2 font-bold border-b text-center">Status</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody id="english-lo-detailed-table-body">
+                                        <tr>
+                                            <td colspan="4" class="text-center py-8 text-gray-400 italic">No data
+                                                available.</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -570,6 +627,10 @@
                             for this selection</p>
                     </div>
                     <div class="flex items-center gap-4">
+                        <button onclick="exportTableToExcel('curriculum-drilldown-body', 'Curriculum_Analysis')"
+                            class="px-4 py-2 bg-green-600 text-white rounded-lg hover:bg-green-700 font-bold transition-colors">
+                            📥 Export Excel
+                        </button>
                         <div class="flex items-center gap-2">
                             <label class="text-sm font-bold text-gray-600">Result Filter:</label>
                             <select id="curriculum-list-result-filter"
@@ -615,17 +676,23 @@
                                 <option value="all">Filter by Grade: All</option>
                             </select>
                         </div>
-                        <div class="flex gap-3"><button
+                        <div class="flex gap-3">
+                            <button onclick="exportTableToExcel('all-students-table-body', 'Student_Directory')"
+                                class="px-4 py-2 bg-green-600 text-white rounded-lg font-semibold hover:bg-green-700 text-sm">📥
+                                Export Excel</button>
+                            <button
                                 class="filter-btn px-4 py-2 bg-green-100 text-green-700 rounded-lg font-semibold hover:bg-green-200 text-sm"
-                                data-filter="participated">Participated</button> <button
+                                data-filter="participated">Participated</button>
+                            <button
                                 class="filter-btn px-4 py-2 bg-red-100 text-red-700 rounded-lg font-semibold hover:bg-red-200 text-sm"
-                                data-filter="absent">Absent</button> <button id="clear-filter"
+                                data-filter="absent">Absent</button>
+                            <button id="clear-filter"
                                 class="px-4 py-2 bg-gray-200 text-gray-700 rounded-lg font-semibold hover:bg-gray-300 text-sm">Clear
                                 Filter</button>
                         </div>
                     </div>
                 </div>
-                <div class="overflow-x-auto">
+                <div class="overflow-x-auto min-h-[300px]">
                     <table class="w-full text-sm border-collapse">
                         <thead>
                             <tr class="bg-blue-600 text-white">
@@ -653,9 +720,15 @@
                     <h2 class="text-3xl font-bold text-gray-800" id="report-card-section-title">Detailed Student Report
                         Card</h2>
                     <p class="text-sm text-gray-600 mt-1">Comprehensive performance analysis for individual student</p>
-                </div><button id="back-to-students"
-                    class="action-button px-6 py-3 bg-gray-600 text-white rounded-xl font-bold hover:bg-gray-700 flex items-center space-x-2">
-                    <span>←</span> <span>Back to Students</span> </button>
+                </div>
+                <div class="flex gap-4">
+                    <button onclick="window.print()"
+                        class="action-button px-6 py-3 bg-indigo-600 text-white rounded-xl font-bold hover:bg-indigo-700 flex items-center space-x-2">
+                        <span>🖨️</span> <span>Print Report</span> </button>
+                    <button id="back-to-students"
+                        class="action-button px-6 py-3 bg-gray-600 text-white rounded-xl font-bold hover:bg-gray-700 flex items-center space-x-2">
+                        <span>←</span> <span>Back to Students</span> </button>
+                </div>
             </div>
             <div class="bg-gradient-to-r from-blue-600 to-blue-800 p-8 rounded-2xl shadow-xl mb-6 text-white">
                 <div class="flex items-center justify-between">
@@ -697,7 +770,7 @@
                                 Achieved:</span> <span class="font-bold text-blue-600 text-2xl"
                                 id="report-math-mastery">-</span>
                         </div>
-                        <div class="flex justify-between"><span class="text-gray-600 font-semibold">Gap:</span> <span
+                        <div class="flex justify-between"><span class="text-gray-600 font-semibold">Status:</span> <span
                                 class="font-bold text-lg" id="report-math-gap">-</span>
                         </div>
                         <div class="mt-4 p-3 bg-blue-50 rounded-lg" id="report-math-questions">
@@ -716,7 +789,7 @@
                                 Achieved:</span> <span class="font-bold text-green-600 text-2xl"
                                 id="report-english-mastery">-</span>
                         </div>
-                        <div class="flex justify-between"><span class="text-gray-600 font-semibold">Gap:</span> <span
+                        <div class="flex justify-between"><span class="text-gray-600 font-semibold">Status:</span> <span
                                 class="font-bold text-lg" id="report-english-gap">-</span>
                         </div>
                         <div class="mt-4 p-3 bg-green-50 rounded-lg" id="report-english-questions">
@@ -755,7 +828,7 @@
                     <div class="overflow-x-auto">
                         <table class="w-full text-xs border-collapse">
                             <thead>
-                                <tr class="bg-green-50 text-gray-800">
+                                <tr class="bg-green-50 text-green-800">
                                     <th class="text-left py-2 px-3 font-bold border">Learning Objective</th>
                                     <th class="text-center py-2 px-2 font-bold border">Score</th>
                                     <th class="text-center py-2 px-2 font-bold border">Status</th>
@@ -782,13 +855,76 @@
             mapping: "https://docs.google.com/spreadsheets/d/e/2PACX-1vS28zbQxbSI37rcO4NFdwz5X8CwjLF9Js1h0iS8jGA5EB91M_LsXukyALT69oI3VLeAXEE1afQOox24/pub?gid=1476979886&single=true&output=csv"
         };
 
-        // ===== DATA MANAGEMENT =====
+        // ===== DATA STRUCTURES =====
+        let masterList = new Map();
+        let mathResults = new Map();
+        let englishResults = new Map();
+        let loMap = new Map();
+        let allStudentsData = [];
 
+        let mathGapChart, englishGapChart, participationDonut, gradeParticipationChart, questionPerformanceChart;
+
+        let currentParticipationGrade = null;
+        let currentCurriculumDrilldown = { type: null, value: null };
+
+        // ===== EXCEL EXPORT UTILITY =====
+        function exportTableToExcel(tbodyId, filename) {
+            const tbody = document.getElementById(tbodyId);
+            const rows = Array.from(tbody.querySelectorAll('tr'));
+
+            // Extract headers from the table relative to the body
+            const table = tbody.closest('table');
+            const headerRow = table.querySelector('thead tr');
+            const headers = Array.from(headerRow.querySelectorAll('th')).map(th => th.innerText);
+
+            let csvContent = headers.join(",") + "\n";
+
+            rows.forEach(row => {
+                const rowData = Array.from(row.querySelectorAll('td')).map(td => {
+                    let text = td.innerText.replace(/,/g, "").replace(/\n/g, " ");
+                    return `"${text}"`;
+                });
+                csvContent += rowData.join(",") + "\n";
+            });
+
+            const blob = new Blob([csvContent], { type: 'text/csv;charset=utf-8;' });
+            const link = document.createElement("a");
+            const url = URL.createObjectURL(blob);
+            link.setAttribute("href", url);
+            link.setAttribute("download", `${filename}_${new Date().toISOString().slice(0, 10)}.csv`);
+            link.style.visibility = 'hidden';
+            document.body.appendChild(link);
+            link.click();
+            document.body.removeChild(link);
+        }
+
+        // ===== LOADING SKELETONS =====
+        function showSkeletons(targetId, rowCount = 5, colCount = 8) {
+            const container = document.getElementById(targetId);
+            if (!container) return;
+
+            let html = '';
+            for (let i = 0; i < rowCount; i++) {
+                html += `<tr class="border-b">`;
+                for (let j = 0; j < colCount; j++) {
+                    html += `<td class="p-4"><div class="h-4 skeleton w-full"></div></td>`;
+                }
+                html += `</tr>`;
+            }
+            container.innerHTML = html;
+        }
+
+        // ===== DATA MANAGEMENT =====
         async function syncWithGoogleSheets() {
             const statusEl = document.getElementById('upload-status');
 
             statusEl.textContent = "🔄 Synchronizing...";
             statusEl.className = "text-xs bg-indigo-500 text-white px-2 py-0.5 rounded font-bold uppercase tracking-wider animate-pulse";
+
+            // Show skeletons in tables while loading
+            showSkeletons('all-students-table-body', 10, 8);
+            showSkeletons('math-gap-distribution-body', 5, 9);
+            showSkeletons('english-gap-distribution-body', 5, 9);
 
             let combinedData = [];
 
@@ -838,21 +974,7 @@
             }
         }
 
-        // ===== DATA STRUCTURES =====
-
-        let masterList = new Map();
-        let mathResults = new Map();
-        let englishResults = new Map();
-        let loMap = new Map();
-        let allStudentsData = [];
-
-        let mathGapChart, englishGapChart, participationDonut, gradeParticipationChart, questionPerformanceChart;
-
-        let currentParticipationGrade = null;
-        let currentCurriculumDrilldown = { type: null, value: null };
-
         // ===== CORE ALGORITHM =====
-
         function calculateMasteryLevel(answers, levels) {
             if (!answers || !levels || answers.length !== levels.length) return 0;
             const stats = {};
@@ -866,12 +988,16 @@
                 if (ans === 1) stats[level].correct++;
             }
 
-            for (let g = 11; g >= 1; g--) {
+            let highestPassed = -1;
+            for (let g = 6; g >= 0; g--) {
                 if (stats[g] && stats[g].total > 0 && (stats[g].correct / stats[g].total) >= 0.60) {
-                    return g;
+                    highestPassed = g;
+                    break;
                 }
             }
-            return 0;
+
+            if (highestPassed === -1) return 0;
+            return highestPassed + 1;
         }
 
         function processSheetData(sheetData) {
@@ -896,7 +1022,11 @@
             masterRecords.forEach(record => {
                 const studentId = record.student_id || record.login_id;
                 const regGrade = parseInt(record.registered_grade);
-                if (studentId && regGrade != 1 && !masterList.has(studentId)) {
+
+                // Data Validation: Skip records with invalid IDs or Grades
+                if (!studentId || isNaN(regGrade)) return;
+
+                if (regGrade != 1 && !masterList.has(studentId)) {
                     masterList.set(studentId, {
                         id: studentId,
                         name: `${record.first_name || ''} ${record.last_name || ''}`.trim() || 'Unknown',
@@ -983,7 +1113,7 @@
                 const englishMastery = englishData.masteryLevel;
                 const registeredGrade = student.grade;
 
-                const targetLevel = registeredGrade >= 7 ? 6 : registeredGrade - 1;
+                const targetLevel = Math.min(7, registeredGrade);
 
                 allStudentsData.push({
                     id: student.id, name: student.name, registeredGrade: registeredGrade,
@@ -1001,7 +1131,6 @@
         }
 
         // ===== UI UPDATES =====
-
         function updateAllVisualizations() {
             updateKPIMetrics();
             updateCharts();
@@ -1024,7 +1153,7 @@
                 if (gradeFilter !== 'all' && student.registeredGrade != gradeFilter) return;
 
                 const addSubjectStats = (subject, resultsMap) => {
-                    if ((subjectFilter === 'all' || subjectFilter.toLowerCase() === subject.toLowerCase()) && resultsMap.has(student.id)) {
+                    if (resultsMap.has(student.id)) {
                         const data = resultsMap.get(student.id);
                         data.answers.forEach((ans, idx) => {
                             if (isNaN(ans)) return;
@@ -1050,43 +1179,56 @@
                 addSubjectStats('English', englishResults);
             });
 
-            const labels = Object.keys(loStats).sort((a, b) => {
-                if (loStats[a].subject !== loStats[b].subject) return loStats[a].subject.localeCompare(loStats[b].subject);
-                return a.localeCompare(b);
+            const mathBody = document.getElementById('math-lo-detailed-table-body');
+            const englishBody = document.getElementById('english-lo-detailed-table-body');
+
+            mathBody.innerHTML = '';
+            englishBody.innerHTML = '';
+
+            // Calculate percentages and sort ASCENDING as requested
+            const loList = Object.keys(loStats).map(key => {
+                const s = loStats[key];
+                return {
+                    name: key,
+                    perc: (s.correct / s.total * 100),
+                    ...s
+                };
+            }).sort((a, b) => a.perc - b.perc); // ASCENDING SORT
+
+            let mathCount = 0;
+            let englishCount = 0;
+
+            loList.forEach(item => {
+                if (subjectFilter !== 'all' && subjectFilter !== item.subject.toLowerCase()) return;
+
+                const passed = item.perc >= 60;
+                const qNumbers = Array.from(item.questions).sort((a, b) => a - b).map(q => `Q${q}`).join(', ');
+
+                const tr = document.createElement('tr');
+                tr.className = "hover:bg-gray-50 border-b border-gray-100 transition-colors cursor-pointer";
+                tr.innerHTML = `
+                <td class="py-3 px-3 font-semibold text-gray-800 border-b">${item.name}</td>
+                <td class="py-3 px-2 text-center text-gray-500 font-medium border-b">${qNumbers}</td>
+                <td class="py-3 px-2 text-center font-bold border-b ${passed ? 'text-green-600' : 'text-red-600'}">${item.perc.toFixed(1)}%</td>
+                <td class="py-3 px-2 text-center border-b">
+                    <span class="status-badge px-2 py-0.5 rounded-full text-[9px] ${passed ? 'bg-green-600 text-white' : 'bg-red-500 text-white'}">
+                        ${passed ? 'Prof' : 'Needs Focus'}
+                    </span>
+                </td>
+            `;
+                tr.onclick = () => showCurriculumDrilldown('lo', item.name);
+
+                if (item.subject === 'Math') {
+                    mathBody.appendChild(tr);
+                    mathCount++;
+                } else {
+                    englishBody.appendChild(tr);
+                    englishCount++;
+                }
             });
 
-            const tableBody = document.getElementById('lo-detailed-table-body');
-            if (labels.length > 0) {
-                tableBody.innerHTML = '';
-                labels.forEach(lo => {
-                    const s = loStats[lo];
-                    const perc = (s.correct / s.total * 100);
-                    const passed = perc >= 60;
-                    const qNumbers = Array.from(s.questions).sort((a, b) => a - b).map(q => `Q${q}`).join(', ');
-
-                    const tr = document.createElement('tr');
-                    tr.className = "hover:bg-gray-50 border-b border-gray-100 transition-colors cursor-pointer";
-                    tr.innerHTML = `
-                    <td class="py-4 px-4 border-b">
-                        <span class="px-2 py-1 rounded text-xs font-bold ${s.subject === 'Math' ? 'bg-blue-100 text-blue-700' : 'bg-green-100 text-green-700'}">
-                            ${s.subject}
-                        </span>
-                    </td>
-                    <td class="py-4 px-4 font-semibold text-gray-800 border-b">${lo}</td>
-                    <td class="py-4 px-4 text-center text-gray-500 font-medium border-b">${qNumbers}</td>
-                    <td class="py-4 px-4 text-center font-bold border-b ${passed ? 'text-green-600' : 'text-red-600'}">${perc.toFixed(1)}%</td>
-                    <td class="py-4 px-4 text-center border-b">
-                        <span class="status-badge px-3 py-1 rounded-full text-[10px] ${passed ? 'bg-green-600 text-white' : 'bg-red-500 text-white'}">
-                            ${passed ? 'Proficient' : 'Needs Focus'}
-                        </span>
-                    </td>
-                `;
-                    tr.onclick = () => showCurriculumDrilldown('lo', lo);
-                    tableBody.appendChild(tr);
-                });
-            } else {
-                tableBody.innerHTML = '<tr><td colspan="5" class="text-center py-8 text-gray-400 italic">No data available.</td></tr>';
-            }
+            if (mathCount === 0) mathBody.innerHTML = '<tr><td colspan="4" class="text-center py-8 text-gray-400 italic">No math data.</td></tr>';
+            if (englishCount === 0) englishBody.innerHTML = '<tr><td colspan="4" class="text-center py-8 text-gray-400 italic">No english data.</td></tr>';
         }
 
         function updateKPIMetrics() {
@@ -1095,7 +1237,6 @@
             const participated = participatedData.length;
             const participationRate = totalStudents > 0 ? ((participated / totalStudents) * 100).toFixed(1) : 0;
 
-            // Update Breakdown Card
             document.getElementById('total-registered-count').textContent = totalStudents;
             document.getElementById('participated-count').textContent = participated;
             document.getElementById('participated-percentage').textContent = participationRate + '% of total';
@@ -1133,6 +1274,8 @@
                 gradeParticipationChart.data.labels = chartGrades.map(g => `Grade ${g}`);
                 gradeParticipationChart.data.datasets[0].data = chartGrades.map(g => gradeGroups[g].total > 0 ? (gradeGroups[g].participated / gradeGroups[g].total * 100).toFixed(1) : 0);
                 gradeParticipationChart.data.datasets[0].counts = chartGrades.map(g => gradeGroups[g].participated);
+                // Bench mark line data
+                gradeParticipationChart.data.datasets[1].data = chartGrades.map(() => 75);
                 gradeParticipationChart.update();
             }
         }
@@ -1150,19 +1293,17 @@
 
             const getDistForSubject = (sub) => {
                 const dist = {};
-                uniqueGrades.forEach(g => { if (g != 1) { dist[g] = { at: 0 }; for (let i = 1; i <= 6; i++) dist[g][`below${i}`] = 0; } });
+                uniqueGrades.forEach(g => {
+                    if (g != 1) {
+                        dist[g] = { l0: 0, l1: 0, l2: 0, l3: 0, l4: 0, l5: 0, l6: 0, l7: 0 };
+                    }
+                });
 
                 allStudentsData.forEach(s => {
                     if (!s.participated || !dist[s.registeredGrade]) return;
-                    let mastery = (sub === 'math') ? s.mathMastery : s.englishMastery;
-
-                    const prevGradeTarget = s.registeredGrade >= 7 ? 6 : s.registeredGrade - 1;
-                    if (mastery >= prevGradeTarget) dist[s.registeredGrade].at++;
-                    else {
-                        const gapLevels = prevGradeTarget - Math.floor(mastery);
-                        const bucket = Math.max(1, Math.min(6, gapLevels));
-                        dist[s.registeredGrade][`below${bucket}`]++;
-                    }
+                    let m = Math.floor((sub === 'math') ? s.mathMastery : s.englishMastery);
+                    if (m > 7) m = 7;
+                    dist[s.registeredGrade][`l${m}`]++;
                 });
                 return dist;
             };
@@ -1182,21 +1323,28 @@
                     const row = document.createElement('tr');
                     row.className = "border-b hover:bg-gray-50";
 
-                    let colsHtml = `<td class="p-2 border font-bold text-left sticky left-0 bg-white group-hover:bg-gray-50 text-xs">Grade ${gNum}</td>`;
-                    // At Grade (#10B981)
-                    colsHtml += `<td class="p-2 border font-bold text-white" style="background-color: #10B981">${d.at}</td>`;
+                    const target = Math.min(7, gNum);
 
-                    // Loop through 1 to 6 years below
-                    for (let i = 1; i <= 6; i++) {
-                        // Apply rule: if column index > grade level, show "-"
-                        if (i > gNum) {
-                            colsHtml += `<td class="p-2 border font-bold text-gray-400 bg-gray-50">-</td>`;
+                    let colsHtml = `<td class="p-2 border font-bold text-left sticky left-0 bg-white group-hover:bg-gray-50 text-xs">Grade ${gNum}</td>`;
+
+                    for (let i = 0; i <= 7; i++) {
+                        if (i <= target) {
+                            let color;
+                            if (i >= target) {
+                                color = '#10B981'; // Green for Current Grade Achievement or clearing higher
+                            } else if (i >= target - 2 && i > 0) {
+                                color = '#f97316'; // Orange for previous 2 levels
+                            } else if (i === 0) {
+                                color = '#EF4444'; // Red for Level 0
+                            } else {
+                                color = '#EF4444'; // Red for everything else below target-2
+                            }
+                            colsHtml += `<td class="p-2 border font-bold text-white" style="background-color: ${color}">${d[`l${i}`]}</td>`;
                         } else {
-                            // Apply color logic based on gap depth
-                            const color = (i <= 2) ? '#F59E0B' : '#EF4444';
-                            colsHtml += `<td class="p-2 border font-bold text-white" style="background-color: ${color}">${d[`below${i}`]}</td>`;
+                            colsHtml += `<td class="p-2 border font-bold text-gray-400 bg-gray-50">-</td>`;
                         }
                     }
+
                     row.innerHTML = colsHtml;
                     tbody.appendChild(row);
                 });
@@ -1205,13 +1353,39 @@
             populateBody(mathTbody, distMath, gradeFilterSelect);
             populateBody(englishTbody, distEng, gradeFilterSelect);
 
-            // Sync Comparison Charts
             const updateCompareChart = (chart, dist, gradeFilterVal) => {
                 if (!chart) return;
                 const chartDataGrades = tableGrades.filter(g => gradeFilterVal === 'all' || g == gradeFilterVal);
                 chart.data.labels = chartDataGrades.map(g => `Grade ${g}`);
-                chart.data.datasets[0].data = chartDataGrades.map(g => dist[g].at);
-                for (let i = 1; i <= 6; i++) chart.data.datasets[i].data = chartDataGrades.map(g => dist[g][`below${i}`]);
+
+                const masterPalette = [
+                    '#ef4444', // Level 0 -> Red
+                    '#f97316', // Level 1
+                    '#f59e0b', // Level 2
+                    '#eab308', // Level 3
+                    '#84cc16', // Level 4
+                    '#22c55e', // Level 5
+                    '#06b6d4', // Level 6
+                    '#10B981'  // Level 7/Target -> Green
+                ];
+
+                for (let i = 0; i <= 7; i++) {
+                    const dataset = chart.data.datasets[i];
+                    dataset.data = chartDataGrades.map(g => {
+                        const target = Math.min(7, g);
+                        return i <= target ? dist[g][`l${i}`] : 0;
+                    });
+
+                    // Apply distinct sequential colors
+                    dataset.backgroundColor = chartDataGrades.map(g => {
+                        const target = Math.min(7, g);
+                        if (i === 0) return '#ef4444'; // Red for Level 0
+                        if (i >= target) return '#10B981'; // Target or above -> Green
+
+                        // Sequential intermediate colors
+                        return masterPalette[i];
+                    });
+                }
                 chart.update();
             };
 
@@ -1234,32 +1408,36 @@
                 if (!s.participated || s.registeredGrade !== gradeNum) return false;
 
                 let mastery = (subjectFilter === 'math') ? s.mathMastery : s.englishMastery;
-                const prevGradeTarget = s.registeredGrade >= 7 ? 6 : s.registeredGrade - 1;
-                const currentGap = prevGradeTarget - Math.floor(mastery);
+                const levelRequest = parseInt(gapTypeLabel.replace('Level ', '').replace('Lvl ', '').replace('+', ''));
 
-                if (gapTypeLabel.includes("At Grade")) return mastery >= prevGradeTarget;
-
-                const gapYear = parseInt(gapTypeLabel.charAt(0));
-                if (gapYear === 6) return currentGap >= 6;
-                return currentGap === gapYear;
+                return Math.floor(mastery) === levelRequest;
             });
 
-            filteredStudents.sort((a, b) => a.name.localeCompare(b.name)).forEach(student => {
-                const row = document.createElement('tr');
-                row.className = 'hover:bg-gray-50 border-b border-gray-100 transition-colors cursor-pointer';
+            if (filteredStudents.length === 0) {
+                tbody.innerHTML = `<tr><td colspan="5" class="text-center py-20 text-gray-400">
+                <div class="flex flex-col items-center">
+                    <span class="text-6xl mb-4">🔍</span>
+                    <p class="text-lg font-bold">No students found matching this criteria.</p>
+                </div>
+            </td></tr>`;
+            } else {
+                filteredStudents.sort((a, b) => a.name.localeCompare(b.name)).forEach(student => {
+                    const row = document.createElement('tr');
+                    row.className = 'hover:bg-gray-50 border-b border-gray-100 transition-colors cursor-pointer';
 
-                row.innerHTML = `
-                <td class="py-4 px-4 font-bold text-blue-600">${student.id}</td>
-                <td class="py-4 px-4 font-semibold text-gray-800">${student.name}</td>
-                <td class="py-4 px-4 text-center font-bold text-blue-500">${student.mathMastery}</td>
-                <td class="py-4 px-4 text-center font-bold text-green-500">${student.englishMastery}</td>
-                <td class="py-4 px-4 text-center">
-                    <span class="status-badge px-3 py-1 bg-green-100 text-green-700 rounded-lg">Participated</span>
-                </td>
-            `;
-                row.onclick = () => showDetailedStudentReport(student);
-                tbody.appendChild(row);
-            });
+                    row.innerHTML = `
+                    <td class="py-4 px-4 font-bold text-blue-600">${student.id}</td>
+                    <td class="py-4 px-4 font-semibold text-gray-800">${student.name}</td>
+                    <td class="py-4 px-4 text-center font-bold text-blue-500">${student.mathMastery}</td>
+                    <td class="py-4 px-4 text-center font-bold text-green-500">${student.englishMastery}</td>
+                    <td class="py-4 px-4 text-center">
+                        <span class="status-badge px-3 py-1 bg-green-100 text-green-700 rounded-lg">Participated</span>
+                    </td>
+                `;
+                    row.onclick = () => showDetailedStudentReport(student);
+                    tbody.appendChild(row);
+                });
+            }
 
             container.scrollIntoView({ behavior: 'smooth', block: 'start' });
         }
@@ -1292,27 +1470,27 @@
 
             tbody.innerHTML = '';
 
-            filtered.forEach(s => {
-                const tr = document.createElement('tr');
-                tr.className = "hover:bg-gray-50 border-b border-gray-100 transition-colors";
-                tr.innerHTML = `
-                <td class="py-4 px-4 font-bold text-blue-600">${s.id}</td>
-                <td class="py-4 px-4 font-semibold text-gray-800">${s.name}</td>
-                <td class="py-4 px-4 text-center">
-                    <span class="status-badge px-3 py-1 rounded-lg ${s.participated ? 'bg-green-100 text-green-700' : 'bg-red-100 text-red-700'}">
-                        ${s.status}
-                    </span>
-                </td>
-                <td class="py-4 px-4 text-center">
-                    <button class="text-xs bg-blue-50 text-blue-600 px-2 py-1 rounded border border-blue-200 hover:bg-blue-100 font-bold">View Report</button>
-                </td>
-            `;
-                tr.onclick = () => showDetailedStudentReport(s);
-                tbody.appendChild(tr);
-            });
-
             if (filtered.length === 0) {
-                tbody.innerHTML = '<tr><td colspan="4" class="text-center py-8 text-gray-400 italic">No students match this filter.</td></tr>';
+                tbody.innerHTML = '<tr><td colspan="4" class="text-center py-20 text-gray-400 font-bold">No students match this filter.</td></tr>';
+            } else {
+                filtered.forEach(s => {
+                    const tr = document.createElement('tr');
+                    tr.className = "hover:bg-gray-50 border-b border-gray-100 transition-colors cursor-pointer";
+                    tr.innerHTML = `
+                    <td class="py-4 px-4 font-bold text-blue-600">${s.id}</td>
+                    <td class="py-4 px-4 font-semibold text-gray-800">${s.name}</td>
+                    <td class="py-4 px-4 text-center">
+                        <span class="status-badge px-3 py-1 rounded-lg ${s.participated ? 'bg-green-100 text-green-700' : 'bg-red-100 text-red-700'}">
+                            ${s.status}
+                        </span>
+                    </td>
+                    <td class="py-4 px-4 text-center">
+                        <button class="text-xs bg-blue-50 text-blue-600 px-2 py-1 rounded border border-blue-200 hover:bg-blue-100 font-bold">View Report</button>
+                    </td>
+                `;
+                    tr.onclick = () => showDetailedStudentReport(s);
+                    tbody.appendChild(tr);
+                });
             }
 
             container.scrollIntoView({ behavior: 'smooth', block: 'start' });
@@ -1379,6 +1557,7 @@
             headerHtml += `</tr>`;
             header.innerHTML = headerHtml;
 
+            let matchFound = false;
             allStudentsData.forEach(s => {
                 if (!s.participated) return;
                 if (gradeFilter !== 'all' && s.registeredGrade != gradeFilter) return;
@@ -1426,10 +1605,11 @@
                 tr.innerHTML = rowHtml;
                 tr.onclick = () => showDetailedStudentReport(s);
                 tbody.appendChild(tr);
+                matchFound = true;
             });
 
-            if (tbody.innerHTML === '') {
-                tbody.innerHTML = `<tr><td colspan="${3 + questionCols.length}" class="text-center py-8 text-gray-400 italic">No data found matching current filters.</td></tr>`;
+            if (!matchFound) {
+                tbody.innerHTML = `<tr><td colspan="${3 + questionCols.length}" class="text-center py-20 text-gray-400 font-bold">No students found matching current filters.</td></tr>`;
             }
 
             container.scrollIntoView({ behavior: 'smooth', block: 'start' });
@@ -1490,6 +1670,17 @@
 
             filteredData.sort((a, b) => a.name.localeCompare(b.name));
 
+            if (filteredData.length === 0) {
+                tbody.innerHTML = `<tr><td colspan="8" class="text-center py-20 text-gray-400">
+              <div class="flex flex-col items-center">
+                  <span class="text-6xl mb-4">🚫</span>
+                  <p class="text-lg font-bold">No students found.</p>
+                  <p class="text-sm">Try clearing filters or checking sync status.</p>
+              </div>
+          </td></tr>`;
+                return;
+            }
+
             filteredData.forEach(student => {
                 const row = document.createElement('tr');
                 row.className = 'student-row border-b border-gray-200';
@@ -1520,10 +1711,22 @@
             const updateSubjectUI = (sub) => {
                 document.getElementById(`report-${sub}-registered`).textContent = 'Grade ' + student.registeredGrade;
                 document.getElementById(`report-${sub}-mastery`).textContent = student[`${sub}Mastery`];
-                const gap = student[`${sub}Gap`];
+
+                const mastery = student[`${sub}Mastery`];
+                const target = Math.min(7, student.registeredGrade);
                 const gapEl = document.getElementById(`report-${sub}-gap`);
-                gapEl.textContent = gap >= 0 ? "At Grade" : Math.abs(gap) + " Yrs Below";
-                gapEl.className = `font-bold text-lg ${gap >= 0 ? 'text-green-600' : 'text-red-600'}`;
+
+                // Gap calculation: registered grade - Mastery Level
+                const gap = target - mastery;
+
+                if (gap <= 0) {
+                    gapEl.textContent = "At Grade Level";
+                    gapEl.className = "font-bold text-lg text-green-600";
+                } else {
+                    gapEl.textContent = `${gap} Year(s) Below`;
+                    // Color coding: 1-2 years = Amber, 3+ years = Red
+                    gapEl.className = `font-bold text-lg ${gap >= 3 ? 'text-red-600' : 'text-amber-600'}`;
+                }
 
                 const stats = student[`${sub}Stats`];
                 const div = document.getElementById(`report-${sub}-questions`);
@@ -1544,10 +1747,11 @@
             const insightContainer = document.getElementById('report-insights-container');
             insightContainer.innerHTML = '';
             ['math', 'english'].forEach(sub => {
-                const gap = student[`${sub}Gap`];
-                const color = gap >= 0 ? 'green' : 'red';
+                const mastery = student[`${sub}Mastery`];
+                const target = Math.min(7, student.registeredGrade);
+                const color = mastery >= target ? 'green' : 'red';
                 const label = sub.charAt(0).toUpperCase() + sub.slice(1);
-                const msg = gap >= 0 ? `✅ ${label} On Track` : `⚠️ ${label} Support Needed`;
+                const msg = mastery >= target ? `✅ ${label} On Track` : `⚠️ ${label} Support Needed`;
                 insightContainer.innerHTML += `<div class="insight-card border-${color}-500 text-${color}-800"><strong>${msg}</strong></div>`;
             });
 
@@ -1639,15 +1843,14 @@
                 data: {
                     labels: [],
                     datasets: [
-                        { label: 'At Grade (Pass X-1)', data: [], backgroundColor: '#10B981', borderRadius: 4 },
-                        // Changed 1 and 2 years below to match Amber color (#F59E0B)
-                        { label: '1 Yr Below', data: [], backgroundColor: '#F59E0B', borderRadius: 4 },
-                        { label: '2 Yrs Below', data: [], backgroundColor: '#F59E0B', borderRadius: 4 },
-                        // Changed more than 2 years below to match Red color (#EF4444)
-                        { label: '3 Yrs Below', data: [], backgroundColor: '#EF4444', borderRadius: 4 },
-                        { label: '4 Yrs Below', data: [], backgroundColor: '#EF4444', borderRadius: 4 },
-                        { label: '5 Yrs Below', data: [], backgroundColor: '#EF4444', borderRadius: 4 },
-                        { label: '6 Yrs Below', data: [], backgroundColor: '#EF4444', borderRadius: 4 }
+                        { label: 'Level 0', data: [], backgroundColor: [], borderRadius: 4 },
+                        { label: 'Level 1', data: [], backgroundColor: [], borderRadius: 4 },
+                        { label: 'Level 2', data: [], backgroundColor: [], borderRadius: 4 },
+                        { label: 'Level 3', data: [], backgroundColor: [], borderRadius: 4 },
+                        { label: 'Level 4', data: [], backgroundColor: [], borderRadius: 4 },
+                        { label: 'Level 5', data: [], backgroundColor: [], borderRadius: 4 },
+                        { label: 'Level 6', data: [], backgroundColor: [], borderRadius: 4 },
+                        { label: 'Level 7', data: [], backgroundColor: [], borderRadius: 4 }
                     ]
                 },
                 options: {
@@ -1697,13 +1900,46 @@
             participationDonut = new Chart(document.getElementById('participation-donut').getContext('2d'), { type: 'doughnut', data: { labels: ['Participated', 'Absent'], datasets: [{ data: [0, 100], backgroundColor: ['#10B981', '#EF4444'], borderWidth: 4, borderColor: '#fff' }] }, options: { responsive: true, maintainAspectRatio: false, plugins: { legend: { position: 'bottom' } } } });
 
             gradeParticipationChart = new Chart(document.getElementById('grade-participation-chart').getContext('2d'), {
-                type: 'bar',
-                data: { labels: [], datasets: [{ label: 'Participation %', data: [], backgroundColor: '#6366f1', borderRadius: 6 }] },
+                data: {
+                    labels: [],
+                    datasets: [
+                        {
+                            type: 'bar',
+                            label: 'Participation %',
+                            data: [],
+                            backgroundColor: '#6366f1',
+                            borderRadius: 6,
+                            order: 2
+                        },
+                        {
+                            type: 'line',
+                            label: '75% Target',
+                            data: [],
+                            borderColor: '#ef4444',
+                            borderWidth: 2,
+                            borderDash: [5, 5],
+                            pointRadius: 0,
+                            fill: false,
+                            order: 1
+                        }
+                    ]
+                },
                 options: {
                     responsive: true,
                     maintainAspectRatio: false,
                     scales: { y: { beginAtZero: true, max: 100 } },
-                    plugins: { tooltip: { callbacks: { label: (c) => `${c.parsed.y}% (${c.dataset.counts[c.dataIndex]} students)` } } },
+                    plugins: {
+                        tooltip: {
+                            callbacks: {
+                                label: (c) => {
+                                    if (c.datasetIndex === 0) {
+                                        return `${c.parsed.y}% (${c.dataset.counts[c.dataIndex]} students)`;
+                                    }
+                                    return `${c.dataset.label}: 75%`;
+                                }
+                            }
+                        }
+                    },
                     onClick: (e, activeEls) => {
                         if (activeEls.length > 0) {
                             const firstPoint = activeEls[0];
